@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[LanguageTranslator.dsp]
+SCC_Aux_Path = "\\bggs-s02\SourceSafeECHO\"
+SCC_Project_Name = "$/src/Appli/CartoGL2/Languages/LanguageTranslator", QAIAAAAA
+
+[LanguageTranslator.dsw]
+SCC_Aux_Path = "\\bggs-s02\SourceSafeECHO\"
+SCC_Project_Name = "$/src/Appli/CartoGL2/Languages/LanguageTranslator", QAIAAAAA

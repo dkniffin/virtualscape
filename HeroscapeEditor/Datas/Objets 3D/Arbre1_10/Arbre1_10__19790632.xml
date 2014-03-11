@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Job [
+	<!ELEMENT Job (JobInfo, JobFlags, Archive?, Plugin, Alerts?, Servers, DependsOn?, JobTasks?, JobDetails)>
+	<!ELEMENT JobInfo (Version, JobHandle, Name, Description, JobPriority, User, Computer, JobShare?, LastUpdated, Submitted, Started, Ended, NumberTasks, TasksCompleted)>
+	<!ELEMENT Version (#PCDATA)>
+	<!ELEMENT JobHandle (#PCDATA)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Description (#PCDATA)>
+	<!ELEMENT JobPriority (#PCDATA)>
+	<!ELEMENT User (#PCDATA)>
+	<!ELEMENT Computer (#PCDATA)>
+	<!ELEMENT JobShare (#PCDATA)>
+	<!ELEMENT LastUpdated (#PCDATA)>
+	<!ELEMENT Submitted (#PCDATA)>
+	<!ELEMENT Started (#PCDATA)>
+	<!ELEMENT Ended (#PCDATA)>
+	<!ELEMENT NumberTasks (#PCDATA)>
+	<!ELEMENT TasksCompleted (#PCDATA)>
+	<!ELEMENT JobFlags (Active, Complete, NonConcurrent, NonStoppable, IgnoreJobShare)>
+	<!ELEMENT Active (#PCDATA)>
+	<!ELEMENT Complete (#PCDATA)>
+	<!ELEMENT NonConcurrent (#PCDATA)>
+	<!ELEMENT NonStoppable (#PCDATA)>
+	<!ELEMENT IgnoreJobShare (#PCDATA)>
+	<!ELEMENT Archive (ArchiveSize?, ExtractedSize?)>
+	<!ELEMENT ArchiveSize (#PCDATA)>
+	<!ELEMENT ExtractedSize (#PCDATA)>
+	<!ELEMENT Plugin (PlugName, PlugVersion)>
+	<!ELEMENT PlugName (#PCDATA)>
+	<!ELEMENT PlugVersion (#PCDATA)>
+	<!ELEMENT Alerts ANY>
+	<!ELEMENT Servers (Server)*>
+	<!ELEMENT Server (SrvHandle, SrvStatus, SrvActive, SrvTaskTime, SrvTaskTotal, SrvContextSwitch, SrvRTFailed)>
+	<!ELEMENT SrvHandle (#PCDATA)>
+	<!ELEMENT SrvStatus (#PCDATA)>
+	<!ELEMENT SrvActive (#PCDATA)>
+	<!ELEMENT SrvTaskTime (#PCDATA)>
+	<!ELEMENT SrvTaskTotal (#PCDATA)>
+	<!ELEMENT SrvContextSwitch (#PCDATA)>
+	<!ELEMENT DependsOn (Dependent)*>
+	<!ELEMENT Dependent (#PCDATA)>
+	<!ELEMENT JobTasks (JobTask)*>
+	<!ELEMENT JobTask ANY>
+	<!ELEMENT JobDetails ANY>
+	<!ATTLIST Servers All CDATA #IMPLIED>
+]>
+<Job>
+<!--backburner Job Description File -->
+	<JobInfo>
+		<Version>300</Version>
+		<JobHandle>4294967295</JobHandle>
+		<Name>Arbre1_10</Name>
+		<Description>*</Description>
+		<JobPriority>50</JobPriority>
+		<User>Didier</User>
+		<Computer>DESK-AMD</Computer>
+		<LastUpdated>2008/03/08-14:24:56:0583-06</LastUpdated>
+		<Submitted>2008/03/08-14:24:56:0583-06</Submitted>
+		<Started>0000/00/00-00:00:00:0000-00</Started>
+		<Ended>0000/00/00-00:00:00:0000-00</Ended>
+		<NumberTasks>1</NumberTasks>
+		<TasksCompleted>0</TasksCompleted>
+		<!--Version 2007.0 Data -->
+		<SrvLimitCount>0</SrvLimitCount>
+		<ArchiveAfterDays>No</ArchiveAfterDays>
+		<DeleteAfterDays>No</DeleteAfterDays>
+		<DeleteDays>0</DeleteDays>
+		<ArchiveDays>0</ArchiveDays>
+		<AssignedSrvGrp></AssignedSrvGrp>
+	</JobInfo>
+	<JobFlags>
+		<Active>Yes</Active>
+		<Complete>No</Complete>
+		<NonConcurrent>No</NonConcurrent>
+		<NonStoppable>No</NonStoppable>
+		<IgnoreJobShare>Yes</IgnoreJobShare>
+		<JobHasDependencies>No</JobHasDependencies>
+		<ZipArchive>Yes</ZipArchive>
+		<LeaveInQueue>No</LeaveInQueue>
+		<ArchiveWhenDone>No</ArchiveWhenDone>
+		<DeleteWhenDone>No</DeleteWhenDone>
+		<OverrideBlockingTasks>No</OverrideBlockingTasks>
+		<EnableBlockingTasks>No</EnableBlockingTasks>
+	</JobFlags>
+	<Archive></Archive>
+	<Plugin>
+		<PlugName>Autodesk 3ds Max 9.0</PlugName>
+		<PlugVersion>300</PlugVersion>
+	</Plugin>
+	<Alerts>
+		<Enabled>0</Enabled>
+		<Failure>No</Failure>
+		<Progress>No</Progress>
+		<Completion>No</Completion>
+		<NthTask>0</NthTask>
+		<SendEmail>No</SendEmail>
+		<IncludeSummary>No</IncludeSummary>
+		<EmailFrom></EmailFrom>
+		<EmailTo></EmailTo>
+		<EmailServer></EmailServer>
+	</Alerts>
+	<Servers All="Yes"></Servers>
+	<DependsOn></DependsOn>
+	<JobTasks>
+		<!--hTask State Elapsed ContextSwitch AppSpecific Assigned Server -->
+		<Tasks>
+00000000 00000000 00000000 0 00000000 0000/00/00-00:00:00:0000-00 000000000000
+</Tasks>
+	</JobTasks>
+	<!--Task Specific Data -->
+	<JobDetails>
+		<D3dsMaxData>
+			<MaxJob>
+				<FirstFrame>0</FirstFrame>
+				<LastFrame>0</LastFrame>
+				<Step>1</Step>
+				<Width>640</Width>
+				<Height>480</Height>
+				<GammaCorrection>No</GammaCorrection>
+				<InputGamma>0.000000</InputGamma>
+				<OutputGamma>1.000000</OutputGamma>
+				<PixelAspect>1.000000</PixelAspect>
+				<OutputCamera></OutputCamera>
+				<REEnabled>No</REEnabled>
+				<ServerPID>19544</ServerPID>
+				<RenderPreset></RenderPreset>
+				<Script></Script>
+				<PostRendScript></PostRendScript>
+				<MaxLoad>20</MaxLoad>
+				<MaxUnload>10</MaxUnload>
+				<MaxRender>600</MaxRender>
+				<RendererName>Default Scanline Renderer</RendererName>
+				<RendererClassHi>1</RendererClassHi>
+				<RendererClassLo>0</RendererClassLo>
+				<Sequence>No</Sequence>
+				<VideoPostJob>No</VideoPostJob>
+				<MapsIncluded>No</MapsIncluded>
+				<SkipExisting>No</SkipExisting>
+				<SkipOutputTest>No</SkipOutputTest>
+				<DisplayVFB>Yes</DisplayVFB>
+				<RegionRender>No</RegionRender>
+				<StripRender>No</StripRender>
+				<StitchRender>No</StitchRender>
+				<DeleteTempStrip>No</DeleteTempStrip>
+				<RenderAllBatches>No</RenderAllBatches>
+				<RenderToTexture>No</RenderToTexture>
+				<IsStillFrame>No</IsStillFrame>
+				<ContinueOnError>No</ContinueOnError>
+			</MaxJob>
+			<Scene>
+				<NumObjects>0</NumObjects>
+				<NumFaces>0</NumFaces>
+				<NumLights>0</NumLights>
+				<SceneStart>0</SceneStart>
+				<SceneEnd>0</SceneEnd>
+				<VideoColorCheck>No</VideoColorCheck>
+				<TwoSided>No</TwoSided>
+				<RenderHidden>No</RenderHidden>
+				<RenderAtmosphere>Yes</RenderAtmosphere>
+				<SuperBlack>No</SuperBlack>
+				<SerialNumbering>No</SerialNumbering>
+				<Dither256>Yes</Dither256>
+				<DitherTrueColor>Yes</DitherTrueColor>
+				<RenderFields>No</RenderFields>
+				<FieldOrder>Yes</FieldOrder>
+				<Multithread>Yes</Multithread>
+				<RenderDisplacements>Yes</RenderDisplacements>
+				<RenderEffects>Yes</RenderEffects>
+				<UseAreaLights>Yes</UseAreaLights>
+				<UseAdvLight>Yes</UseAdvLight>
+				<CalcAdvLight>No</CalcAdvLight>
+			</Scene>
+			<Outputs></Outputs>
+			<Cameras></Cameras>
+			<RenderElements></RenderElements>
+			<SessionPaths></SessionPaths>
+			<BitmapOptions></BitmapOptions>
+			<BakeNodes></BakeNodes>
+			<RenderStrips>
+				<StripCount>0</StripCount>
+				<StripOverlap>0</StripOverlap>
+			</RenderStrips>
+			<SceneStates></SceneStates>
+		</D3dsMaxData>
+	</JobDetails>
+</Job>

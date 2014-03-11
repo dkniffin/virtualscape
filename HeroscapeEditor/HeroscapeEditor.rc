@@ -1,0 +1,2039 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\HeroscapeEditor.rc2""  // ressources non modifiées par Microsoft Visual C++\r\n"
+    "#include ""afxres.rc""         // Composants standard\r\n"
+    "#include ""afxprint.rc""       // ressources impression/aperçu avant impression\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\HeroscapeEditor.ico"
+IDR_VIRTUALSCAPE2D      ICON                    "res\\HeroscapeEditorDoc.ico"
+IDR_VIRTUALSCAPE3D      ICON                    "res\\idr_hero.ico"
+IDR_VIRTUALSCAPEGAME3D  ICON                    "res\\idr_virt.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_HEXBACKGROUND       BITMAP                  "res\\HexBackground.bmp"
+IDB_OBJECTVIEW          BITMAP                  "res\\infoview.bmp"
+IDR_TOOLBARVIEW         BITMAP                  "res\\ToolBarView.bmp"
+IDB_VIEWTOOLBAR         BITMAP                  "res\\ViewToolBar.bmp"
+IDR_TOOLBAROBJECT       BITMAP                  "res\\toolbar1.bmp"
+IDB_OBJECTTOOLBAR       BITMAP                  "res\\ObjectToolBar.bmp"
+IDB_GENERALTOOLBAR      BITMAP                  "res\\GeneralToolBar.bmp"
+IDB_BACKGROUND          BITMAP                  "res\\bitmap1.bmp"
+IDR_TOOLBAR3DVIEW       BITMAP                  "res\\ToolBar3DView.bmp"
+IDB_3DVIEWTOOLBAR       BITMAP                  "res\\3DViewToolBar.bmp"
+IDB_BRUSH_ONION         BITMAP                  "res\\bmp00001.bmp"
+IDB_INFOLIST            BITMAP                  "res\\bitmap2.bmp"
+IDB_IMAGELIST_INFO      BITMAP                  "res\\bmp00002.bmp"
+IDB_GAMECHATVIEW        BITMAP                  "res\\objectvi.bmp"
+IDB_GAMEPLAYERVIEW      BITMAP                  "res\\gamechat.bmp"
+IDB_GAMEACTIONVIEW      BITMAP                  "res\\bmp00003.bmp"
+IDB_SHIELD              BITMAP                  "res\\Shield.bmp"
+IDB_ATTACK              BITMAP                  "res\\Attack.bmp"
+IDB_VALIDATE            BITMAP                  "res\\Validate.bmp"
+IDB_MOVEMENT            BITMAP                  "res\\movement.bmp"
+IDB_RANGE               BITMAP                  "res\\Range.bmp"
+IDR_TOOLBARGAME         BITMAP                  "res\\ToolBarGame.bmp"
+IDB_GAMETOOLBAR         BITMAP                  "res\\BmpGameToolBar.bmp"
+IDB_LIFE                BITMAP                  "res\\life.bmp"
+IDB_PREDICTEDPLAYSHOWX  BITMAP                  "res\\PredictedPlayShowX.bmp"
+IDB_PREDICTEDPLAYSHOW1  BITMAP                  "res\\PredictedPlayShow1.bmp"
+IDB_PREDICTEDPLAYSHOW2  BITMAP                  "res\\predictedPlayShow2.bmp"
+IDB_PREDICTEDPLAYSHOW3  BITMAP                  "res\\predictedPlayShow3.bmp"
+IDB_PREDICTEDPLAYHIDEX  BITMAP                  "res\\predictedPlayHideX.bmp"
+IDB_PREDICTEDPLAYHIDE1  BITMAP                  "res\\PredictedPlayHide1.bmp"
+IDB_PREDICTEDPLAYHIDE2  BITMAP                  "res\\predictedPlayHide2.bmp"
+IDB_PREDICTEDPLAYHIDE3  BITMAP                  "res\\predictedPlayHide3.bmp"
+IDB_PREDICTEDPLAYHIDE   BITMAP                  "res\\PredictedPlayHide.bmp"
+IDB_PREDICTEDPLAYMASK   BITMAP                  "res\\PredictedMask.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  32, 32
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_DOC_CHECK
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_TOOLBARVIEW TOOLBAR  32, 32
+BEGIN
+    BUTTON      ID_FULLVIEW
+    SEPARATOR
+    BUTTON      ID_ZOOMIN
+    BUTTON      ID_ZOOMOUT
+    BUTTON      ID_ZOOMVALUE
+    SEPARATOR
+    BUTTON      ID_LEVELUP
+    BUTTON      ID_LEVELDOWN
+    SEPARATOR
+    BUTTON      ID_NEW_3DVIEW
+END
+
+IDR_TOOLBAROBJECT TOOLBAR  32, 32
+BEGIN
+    BUTTON      ID_EDIT_ROTATE_LEFT
+    BUTTON      ID_EDIT_ROTATE_RIGHT
+    SEPARATOR
+    BUTTON      ID_EDIT_REMOVE
+END
+
+IDR_TOOLBAR3DVIEW TOOLBAR  32, 32
+BEGIN
+    BUTTON      IDR_TOOLBAR3D_DISPLAYSHADOW
+    BUTTON      ID_OUTILS_VUESTEREO
+    BUTTON      ID_OUTILS_VUESTEREOINTERLACED
+    SEPARATOR
+    BUTTON      ID_OUTILS_VUEHAUTEQUALITE
+    BUTTON      ID_OUTILS_VUETOPOGRAPHIQUE
+    SEPARATOR
+    BUTTON      ID_CAMERA_GO_HOME
+    BUTTON      ID_OUTILS_TOURNEAUTOUR
+    BUTTON      ID_OUTILS_VOIRLACONSTRUCTION
+    SEPARATOR
+    BUTTON      ID_VIDEO_ERASE_ALL_POSITION
+    BUTTON      ID_VIDEO_ADD_CURRENT_POSITION
+    BUTTON      ID_VIDEO_MOVE_REALTIME
+    BUTTON      ID_VIDEO_CREATE_FILE
+END
+
+IDR_TOOLBARGAME TOOLBAR  32, 32
+BEGIN
+    BUTTON      ID_PLACE_FIGURE_ON_MAP
+    BUTTON      ID_REMOVE_FIGURE_FROM_MAP
+    BUTTON      ID_MOVE_FIGURE
+    SEPARATOR
+    BUTTON      ID_ATTACK_CHOOSE_FIGURE
+    BUTTON      ID_ATTACK_DICE
+    SEPARATOR
+    BUTTON      ID_DEFENSE_DICE
+    SEPARATOR
+    BUTTON      ID_DIE_20
+    SEPARATOR
+    BUTTON      ID_NEXT_TURN
+    SEPARATOR
+    BUTTON      IDR_TOOLBAR3D_DISPLAYSHADOW
+    BUTTON      ID_OUTILS_VUEHAUTEQUALITE
+    BUTTON      ID_CAMERA_GO_HOME
+    SEPARATOR
+    BUTTON      ID_REPLAY_GAME
+    BUTTON      ID_REPLAY_TO_FILE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Nouveau\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Ouvrir...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Configuration de l'impression...", ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Fichier récent",              ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "&Fermer",                     ID_FILE_CLOSE
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "Barre d'outils &générale",    ID_VIEW_TOOLBAR
+        MENUITEM "Barre d'outils des vues &2D", ID_AFFICHAGE_BARRE2D
+        MENUITEM "Barre d'outils des vues &3D", ID_AFFICHAGE_BARRED3D
+        MENUITEM "Barre d'outils des &objets",  ID_AFFICHAGE_BARREOBJET
+        MENUITEM "&Barre d'état",               ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Fenêtre objets",             ID_AFFICHAGE_FENETRE_OBJET
+        MENUITEM "Fenêtre &Information",        ID_AFFICHAGE_FENETREINFORMATION
+    END
+    POPUP "&Jouer"
+    BEGIN
+        MENUITEM "&Céer une partie en ligne ou réseau", ID_PLAY_CREATEGAME, INACTIVE
+        MENUITEM "&Rejoindre une partie en ligne ou réseau", ID_PLAY_JOINGAME
+        MENUITEM "&Voir une partie en ligne ou réseau", ID_PLAY_WATCHGAME
+    END
+    POPUP "&Configuration"
+    BEGIN
+        MENUITEM "&Matériel disponible...",     ID_CONFIGURATION_MAT_DISPO
+        MENUITEM "P&ièces personnelles...",     ID_CONFIGURATION_TILEPERSO
+        MENUITEM "&Préférences...",             ID_CONFIGURATION_PREFERENCY
+    END
+    POPUP "&Aide"
+    BEGIN
+        MENUITEM "Manuel utilisateur...",       ID_AIDE_AIDEGLOBALE
+        MENUITEM SEPARATOR
+        MENUITEM "&À propos de VirtualScape...", ID_APP_ABOUT
+    END
+END
+
+IDR_VIRTUALSCAPE2D MENU 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Nouveau\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Ouvrir...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM "&Fermer",                     ID_FILE_CLOSE
+        MENUITEM "&Enregistrer\tCtrl+S",        ID_FILE_SAVE
+        MENUITEM "Enregistrer &sous...",        ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Imprimer...\tCtrl+P",        ID_FILE_MYPRINT
+        MENUITEM "&Aperçu avant impression",    ID_FILE_PRINT_PREVIEW
+        MENUITEM "Imprimer numérotation...",    ID_FICHIER_IMPRIMERNUM
+        MENUITEM "Aperçu avant impression numérotation", ID_FICHIER_APERCUNUM
+        MENUITEM "&Configuration de l'impression...", ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Fichier récent",              ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "Barre d'outils &générale",    ID_VIEW_TOOLBAR
+        MENUITEM "Barre d'outils des vues &2D", ID_AFFICHAGE_BARRE2D
+        MENUITEM "Barre d'outils des vues &3D", ID_AFFICHAGE_BARRED3D
+        MENUITEM "Barre d'outils des &objets",  ID_AFFICHAGE_BARREOBJET
+        MENUITEM "&Barre d'état",               ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Fenêtre objets",             ID_AFFICHAGE_FENETRE_OBJET
+        MENUITEM "Fenêtre &Information",        ID_AFFICHAGE_FENETREINFORMATION
+    END
+    POPUP "&Edition"
+    BEGIN
+        MENUITEM "&Couper\tCtrl+X",             ID_EDITION_COUPER
+        MENUITEM "C&opier\tCtr+C",              ID_EDITION_COPIER
+        MENUITEM "Colle&r\tCtrl+V",             ID_EDITION_COLLER
+    END
+    POPUP "&Sélection"
+    BEGIN
+        MENUITEM "&Rien sélectionner",          ID_SELECT_NOTHING
+        MENUITEM "&Tout sélectionner\tCtrl+A",  ID_SELECT_ALL
+        MENUITEM "Sélectionner les tuiles du &niveau", ID_SELECT_LEVEL
+        MENUITEM "Sélectionner mème tuile du niveau", ID_SELECT_SAME_TILE_SAME_LEVEL
+        MENUITEM "&Inverser la sélection",      ID_SELECT_INVERSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Supprimer\tSuppr",           ID_EDIT_REMOVE
+        MENUITEM SEPARATOR
+        MENUITEM "Pivoter à &gauche\tCtrl+Flêche gauche", ID_EDIT_ROTATE_LEFT
+        MENUITEM "Pivoter à &droite\tCtrl+Flêche droite", ID_EDIT_ROTATE_RIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "&Monter d'un niveau\tCtrl+Pg. Préc", ID_SELECT_LEVELUP
+        MENUITEM "Descendre d'un niveau\tCtrl+Pg. Suiv", ID_SELECT_LEVELDOWN
+    END
+    POPUP "&Outils"
+    BEGIN
+        MENUITEM "Voir &tout",                  ID_FULLVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Zoom positif\t+",             ID_ZOOMIN
+        MENUITEM "Zoom négatif\t-",             ID_ZOOMOUT
+        MENUITEM "Zoom &défini",                ID_ZOOMVALUE
+        MENUITEM SEPARATOR
+        MENUITEM "Niveau supérieur\tPg. Préc",  ID_LEVELUP
+        MENUITEM "Niveau inférieur\tPg. Suiv",  ID_LEVELDOWN
+        MENUITEM "Aller à un niveau\tCtrl+G",   ID_OUTILS_GO_LEVEL
+        MENUITEM SEPARATOR
+        MENUITEM "&Numérotation",               ID_OUTILS_NUMBER
+        MENUITEM "Construction inve&rsée",      ID_OUTILS_REVERSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Vérifier le champs de bataille", ID_DOC_CHECK
+        MENUITEM SEPARATOR
+        MENUITEM "Insérer un niveau sous le niveau actuel", ID_OUTILS_INSERTLEVEL
+        MENUITEM "Supprimer le niveau actuel",  ID_OUTILS_REMOVELEVEL
+    END
+    POPUP "&Jouer"
+    BEGIN
+        MENUITEM "&Céer une partie en ligne ou réseau", ID_PLAY_CREATEGAME, INACTIVE
+        MENUITEM "&Rejoindre une partie en ligne ou réseau", ID_PLAY_JOINGAME
+        MENUITEM "&Voir une partie en ligne ou réseau", ID_PLAY_WATCHGAME
+    END
+    POPUP "&Configuration"
+    BEGIN
+        MENUITEM "&Matériel disponible...",     ID_CONFIGURATION_MAT_DISPO
+        MENUITEM "P&ièces personnelles...",     ID_CONFIGURATION_TILEPERSO
+        MENUITEM "&Préférences...",             ID_CONFIGURATION_PREFERENCY
+        MENUITEM "Paramètres du &Document...",  ID_CONFIGURATION_PARAMDOC
+    END
+    POPUP "&Fenêtre"
+    BEGIN
+        MENUITEM "&Nouvelle fenêtre 2D",        ID_WINDOW_NEW
+        MENUITEM "Nouvelle fenêtre 3D",         ID_NEW_3DVIEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Mosaïque",                   ID_WINDOW_TILE_HORZ
+        MENUITEM "&Réorganiser les icônes",     ID_WINDOW_ARRANGE
+    END
+    POPUP "&Aide"
+    BEGIN
+        MENUITEM "Manuel utilisateur...",       ID_AIDE_AIDEGLOBALE
+        MENUITEM SEPARATOR
+        MENUITEM "&À propos de VirtualScape...", ID_APP_ABOUT
+    END
+END
+
+IDR_VIRTUALSCAPE3D MENU 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Nouveau\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "&Ouvrir...\tCtrl+O",          ID_FILE_OPEN
+        MENUITEM "&Fermer",                     ID_FILE_CLOSE
+        MENUITEM "&Enregistrer\tCtrl+S",        ID_FILE_SAVE
+        MENUITEM "Enregistrer &sous...",        ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Imprimer...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "&Aperçu avant impression",    ID_FILE_PRINT_PREVIEW
+        MENUITEM "&Configuration de l'impression...", ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Fichier récent",              ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "Barre d'outils &générale",    ID_VIEW_TOOLBAR
+        MENUITEM "Barre d'outils des vues &2D", ID_AFFICHAGE_BARRE2D
+        MENUITEM "Barre d'outils des vues &3D", ID_AFFICHAGE_BARRED3D
+        MENUITEM "Barre d'outils des &objets",  ID_AFFICHAGE_BARREOBJET
+        MENUITEM "&Barre d'état",               ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Fenêtre objets",             ID_AFFICHAGE_FENETRE_OBJET
+        MENUITEM "Fenêtre &Information",        ID_AFFICHAGE_FENETREINFORMATION
+    END
+    POPUP "&Sélection"
+    BEGIN
+        MENUITEM "&Rien selectionner",          ID_SELECT_NOTHING
+        MENUITEM "&Tout selectionner\tCtrl+A",  ID_SELECT_ALL
+        MENUITEM "&Inverser la selection",      ID_SELECT_INVERSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Supprimer",                  ID_EDIT_REMOVE
+        MENUITEM SEPARATOR
+        MENUITEM "Pivoter à &gauche",           ID_EDIT_ROTATE_LEFT
+        MENUITEM "Pivoter à &droite",           ID_EDIT_ROTATE_RIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "&Monter d'un niveau",         ID_SELECT_LEVELUP
+        MENUITEM "Descendre d'un niveau",       ID_SELECT_LEVELDOWN
+    END
+    POPUP "&Outils"
+    BEGIN
+        MENUITEM "Affiche les o&mbres",         IDR_TOOLBAR3D_DISPLAYSHADOW
+        MENUITEM "Vue sté&réo",                 ID_OUTILS_VUESTEREO
+        MENUITEM "Vue stéréo &interlacée",      ID_OUTILS_VUESTEREOINTERLACED
+        MENUITEM SEPARATOR
+        MENUITEM "Vue haute &qualitée",         ID_OUTILS_VUEHAUTEQUALITE
+        MENUITEM "&Vue topographique",          ID_OUTILS_VUETOPOGRAPHIQUE
+        MENUITEM SEPARATOR
+        MENUITEM "Vue d'&origine",              ID_CAMERA_GO_HOME
+        MENUITEM "&Tourne autour",              ID_OUTILS_TOURNEAUTOUR
+        MENUITEM "Voir la &construction",       ID_OUTILS_VOIRLACONSTRUCTION
+        MENUITEM SEPARATOR
+        MENUITEM "&Sauver l'image ...",         ID_OUTILS_SAVEIMAGE
+    END
+    POPUP "&Jouer"
+    BEGIN
+        MENUITEM "&Céer une partie en ligne ou réseau", ID_PLAY_CREATEGAME, INACTIVE
+        MENUITEM "&Rejoindre une partie en ligne ou réseau", ID_PLAY_JOINGAME
+        MENUITEM "&Voir une partie en ligne ou réseau", ID_PLAY_WATCHGAME
+    END
+    POPUP "&Configuration"
+    BEGIN
+        MENUITEM "&Matériel disponible...",     ID_CONFIGURATION_MAT_DISPO
+        MENUITEM "P&ièces personnelles...",     ID_CONFIGURATION_TILEPERSO
+        MENUITEM "&Préférences...",             ID_CONFIGURATION_PREFERENCY
+        MENUITEM "Paramètres du &Document...",  ID_CONFIGURATION_PARAMDOC
+    END
+    POPUP "&Fenêtre"
+    BEGIN
+        MENUITEM "&Nouvelle fenêtre 2D",        ID_WINDOW_NEW
+        MENUITEM "Nouvelle fenêtre 3D",         ID_NEW_3DVIEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Mosaïque",                   ID_WINDOW_TILE_HORZ
+        MENUITEM "&Réorganiser les icônes",     ID_WINDOW_ARRANGE
+    END
+    POPUP "Vidéo"
+    BEGIN
+        MENUITEM "Effacer les positions",       ID_VIDEO_ERASE_ALL_POSITION
+        MENUITEM "Ajouter la position courante", ID_VIDEO_ADD_CURRENT_POSITION
+        MENUITEM "Animation temps réel",        ID_VIDEO_MOVE_REALTIME
+        MENUITEM "Creer un fichier vidéo...",   ID_VIDEO_CREATE_FILE
+        MENUITEM SEPARATOR
+        MENUITEM "Sauvegarder les positions clefs...", ID_VIDEO_SAVE_POSITION
+        MENUITEM "Charger des positions clefs...", ID_VIDEO_LOAD_POSITION
+    END
+    POPUP "&Aide"
+    BEGIN
+        MENUITEM "Manuel utilisateur...",       ID_AIDE_AIDEGLOBALE
+        MENUITEM SEPARATOR
+        MENUITEM "&À propos de VirtualScape...", ID_APP_ABOUT
+    END
+END
+
+IDR_VIRTUALSCAPEGAME3D MENU 
+BEGIN
+    POPUP "&Fichier"
+    BEGIN
+        MENUITEM "&Quitter",                    ID_APP_EXIT
+    END
+    POPUP "&Affichage"
+    BEGIN
+        MENUITEM "&Barre d'état",               ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Fenêtre messagerie",          ID_AFFICHAGE_CHAT
+        MENUITEM "Fenêtre joueur",              ID_AFFICHAGE_WINDOWPLAYER
+        MENUITEM "Fenêtre action",              ID_AFFICHAGE_WINDOW_ACTION
+    END
+    POPUP "&Outils"
+    BEGIN
+        MENUITEM "Affiche les o&mbres",         IDR_TOOLBAR3D_DISPLAYSHADOW
+        MENUITEM "Vue haute &qualitée",         ID_OUTILS_VUEHAUTEQUALITE
+        MENUITEM SEPARATOR
+        MENUITEM "Vue d'&origine",              ID_CAMERA_GO_HOME
+        MENUITEM SEPARATOR
+        MENUITEM "Animations tournantes",       ID_OUTILS_ANIMATIONSTOURNANTE
+        MENUITEM "Animations simples",          ID_OUTILS_ANIMATIONSSIMPLES
+        MENUITEM SEPARATOR
+        MENUITEM "&Sauver l'image ...",         ID_OUTILS_SAVEIMAGE
+        MENUITEM "Replay de la partie",         ID_REPLAY_GAME
+        MENUITEM "Sauver le replay de la partie", ID_REPLAY_TO_FILE
+    END
+    POPUP "&Jouer"
+    BEGIN
+        MENUITEM "Ajouter une figurine sur la carte", ID_PLACE_FIGURE_ON_MAP
+        MENUITEM "Supprime une figurine de la carte", ID_REMOVE_FIGURE_FROM_MAP
+        MENUITEM "Déplace une figurine sur la carte", ID_MOVE_FIGURE
+        MENUITEM SEPARATOR
+        MENUITEM "Lancer une attaque",          ID_ATTACK_CHOOSE_FIGURE
+        MENUITEM "Lancer les dés d'attaque",    ID_ATTACK_DICE
+        MENUITEM SEPARATOR
+        MENUITEM "Lancer les dés de défense",   ID_DEFENSE_DICE
+        MENUITEM SEPARATOR
+        MENUITEM "Passe au tour suivant",       ID_NEXT_TURN
+        MENUITEM SEPARATOR
+        MENUITEM "Quitter le jeu",              ID_JOUER_QUITTERLEJEU
+    END
+    POPUP "&Configuration"
+    BEGIN
+        MENUITEM "&Préférences...",             ID_CONFIGURATION_PREFERENCY
+    END
+    POPUP "&Aide"
+    BEGIN
+        MENUITEM "Manuel utilisateur...",       ID_AIDE_AIDEGLOBALE
+        MENUITEM SEPARATOR
+        MENUITEM "&À propos de VirtualScape...", ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    VK_F1,          ID_AIDE_AIDEGLOBALE,    VIRTKEY, NOINVERT
+    VK_DELETE,      ID_EDIT_REMOVE,         VIRTKEY, NOINVERT
+    VK_LEFT,        ID_EDIT_ROTATE_LEFT,    VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       ID_EDIT_ROTATE_RIGHT,   VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "V",            ID_EDITION_COLLER,      VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDITION_COPIER,      VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDITION_COUPER,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_NEXT,        ID_LEVELDOWN,           VIRTKEY, NOINVERT
+    VK_PRIOR,       ID_LEVELUP,             VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "A",            ID_SELECT_ALL,          VIRTKEY, CONTROL, NOINVERT
+    VK_NEXT,        ID_SELECT_LEVELDOWN,    VIRTKEY, CONTROL, NOINVERT
+    VK_PRIOR,       ID_SELECT_LEVELUP,      VIRTKEY, CONTROL, NOINVERT
+    VK_ADD,         ID_ZOOMIN,              VIRTKEY, NOINVERT
+    VK_SUBTRACT,    ID_ZOOMOUT,             VIRTKEY, NOINVERT
+    "G",            ID_OUTILS_GO_LEVEL,     VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 228, 169
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "À propos de VirtualScape"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,10,6,20,20
+    LTEXT           "VirtualScape version 1.0.7.0",IDC_STATIC,40,7,128,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006-2009 Didier Paradis",IDC_STATIC,39,17,129,8
+    DEFPUSHBUTTON   "OK",IDOK,171,7,50,16,WS_GROUP
+    LTEXT           "Mail : virtualscape@free.fr",IDC_STATIC,39,145,125,8
+    LTEXT           "Web : didier.paradis.free.fr/virtualscape/francais",IDC_STATIC,39,154,175,8
+    LTEXT           "Remerciements :",IDC_STATIC,39,36,147,8
+    LTEXT           "WulfeBane pour le manuel utilisateur.",IDC_STATIC,48,47,160,8
+    LTEXT           "Srmalloy pour les très belles textures.",IDC_STATIC,48,56,159,8
+    LTEXT           "Usagi3 pour les textures des glyphes.",IDC_STATIC,48,65,160,8
+    LTEXT           "CptRodent pour les photos des figurines.",IDC_STATIC,48,75,160,8
+    LTEXT           "Bunjee pour le set Ticalla.",IDC_STATIC,48,84,160,8
+    LTEXT           "Tom pour le set chateau et sa gentillesse.",IDC_STATIC,48,93,160,8
+    LTEXT           "Brian pour le drapeau.",IDC_STATIC,48,102,160,8
+    LTEXT           "Just_a_Bill pour ses textures.",IDC_STATIC,48,111,160,8
+    LTEXT           "Brian Blake pour ses models 3D.",IDC_STATIC,48,120,160,8
+END
+
+IDD_GAMECHATVIEW DIALOGEX 0, 0, 313, 106
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_RICHEDIT_MESSAGE,"RichEdit20W",ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,7,7,299,71
+    EDITTEXT        IDC_EDIT_MESSAGE,7,86,234,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Envoyer",IDC_BUTTON_SEND,253,85,53,14
+END
+
+IDD_CONFIG_MATERIAL DIALOGEX 0, 0, 558, 392
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Liste des pièces en votre possession"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Herbe",IDC_STATIC,7,7,334,24
+    LTEXT           "24 Hex :",IDC_STATIC,13,17,29,8
+    EDITTEXT        IDC_ED_MAT_GRASS24,43,15,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GRASS24,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,63,15,11,12
+    LTEXT           "7 Hex :",IDC_STATIC,82,17,23,8
+    EDITTEXT        IDC_ED_MAT_GRASS7,108,15,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GRASS7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,128,15,11,12
+    LTEXT           "3 Hex :",IDC_STATIC,147,17,24,8
+    EDITTEXT        IDC_ED_MAT_GRASS3,173,15,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GRASS3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,193,15,11,12
+    LTEXT           "2 Hex :",IDC_STATIC,212,17,23,8
+    EDITTEXT        IDC_ED_MAT_GRASS2,238,15,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GRASS2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,15,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,277,17,25,8
+    EDITTEXT        IDC_ED_MAT_GRASS1,303,15,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GRASS1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,323,15,11,12
+    GROUPBOX        "Rocher",IDC_STATIC,7,33,335,25
+    LTEXT           "24 Hex :",IDC_STATIC,14,44,29,8
+    EDITTEXT        IDC_ED_MAT_ROCK24,44,42,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ROCK24,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,64,42,11,12
+    LTEXT           "7 Hex :",IDC_STATIC,82,44,23,8
+    EDITTEXT        IDC_ED_MAT_ROCK7,108,42,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ROCK7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,128,42,11,12
+    LTEXT           "3 Hex :",IDC_STATIC,147,44,24,8
+    EDITTEXT        IDC_ED_MAT_ROCK3,173,42,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ROCK3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,193,42,11,12
+    LTEXT           "2 Hex :",IDC_STATIC,212,44,23,8
+    EDITTEXT        IDC_ED_MAT_ROCK2,238,42,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ROCK2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,42,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,277,44,25,8
+    EDITTEXT        IDC_ED_MAT_ROCK1,303,42,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ROCK1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,323,42,11,12
+    GROUPBOX        "Sable",IDC_STATIC,7,60,269,25
+    LTEXT           "7 Hex :",IDC_STATIC,18,71,23,8
+    EDITTEXT        IDC_ED_MAT_SAND7,44,69,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SAND7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,64,69,11,14
+    LTEXT           "3 Hex :",IDC_STATIC,82,71,24,8
+    EDITTEXT        IDC_ED_MAT_SAND3,108,69,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SAND3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,127,69,11,12
+    LTEXT           "2 Hex :",IDC_STATIC,147,71,23,8
+    EDITTEXT        IDC_ED_MAT_SAND2,173,69,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SAND2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,193,69,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,212,71,25,8
+    EDITTEXT        IDC_ED_MAT_SAND1,238,69,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SAND1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,69,11,12
+    GROUPBOX        "Arbre",IDC_STATIC,7,88,269,26
+    LTEXT           "15 :",IDC_STATIC,18,99,23,8
+    EDITTEXT        IDC_ED_MAT_TREE15,44,97,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_TREE15,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,64,97,11,12
+    LTEXT           "12 :",IDC_STATIC,92,99,13,8
+    EDITTEXT        IDC_ED_MAT_TREE12,108,97,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_TREE12,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,128,97,11,12
+    LTEXT           "11 :",IDC_STATIC,158,99,13,8
+    EDITTEXT        IDC_ED_MAT_TREE11,174,97,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_TREE11,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,194,97,11,12
+    LTEXT           "10 :",IDC_STATIC,222,99,14,8
+    EDITTEXT        IDC_ED_MAT_TREE10,238,97,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_TREE10,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,97,11,12
+    GROUPBOX        "Glacier",IDC_STATIC,7,116,270,25
+    LTEXT           "6 Hex :",IDC_STATIC,18,127,23,8
+    EDITTEXT        IDC_ED_MAT_GLACIER6,44,125,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLACIER6,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,64,125,11,12
+    LTEXT           "4 Hex :",IDC_STATIC,82,127,24,8
+    EDITTEXT        IDC_ED_MAT_GLACIER4,108,125,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLACIER4,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,128,125,11,12
+    LTEXT           "3 Hex :",IDC_STATIC,148,127,23,8
+    EDITTEXT        IDC_ED_MAT_GLACIER3,174,125,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLACIER3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,194,125,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,212,127,25,8
+    EDITTEXT        IDC_ED_MAT_GLACIER1,238,125,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLACIER1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,125,11,12
+    GROUPBOX        "Lave",IDC_STATIC,7,144,205,26
+    LTEXT           "7 Hex :",IDC_STATIC,17,155,23,8
+    EDITTEXT        IDC_ED_MAT_LAVAFIELD7,43,153,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_LAVAFIELD7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,63,153,11,12
+    LTEXT           "2 Hex :",IDC_STATIC,82,155,24,8
+    EDITTEXT        IDC_ED_MAT_LAVAFIELD2,108,153,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_LAVAFIELD2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,127,153,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,147,155,23,8
+    EDITTEXT        IDC_ED_MAT_LAVAFIELD1,173,153,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_LAVAFIELD1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,193,153,11,12
+    GROUPBOX        "Mur",IDC_STATIC,217,144,72,26
+    LTEXT           "4 Hex :",IDC_STATIC,225,155,24,8
+    EDITTEXT        IDC_ED_MAT_WALL4,251,153,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_WALL4,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,271,153,11,12
+    GROUPBOX        "Route",IDC_STATIC,7,172,206,25
+    LTEXT           "5 Hex :",IDC_STATIC,17,183,23,8
+    EDITTEXT        IDC_ED_MAT_ROAD5,43,181,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ROAD5,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,63,181,11,12
+    LTEXT           "2 Hex :",IDC_STATIC,82,183,24,8
+    EDITTEXT        IDC_ED_MAT_ROAD2,108,181,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ROAD2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,127,181,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,147,183,23,8
+    EDITTEXT        IDC_ED_MAT_ROAD1,173,181,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ROAD1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,193,181,11,12
+    GROUPBOX        "Neige",IDC_STATIC,217,172,141,25
+    LTEXT           "2 Hex :",IDC_STATIC,226,182,24,8
+    EDITTEXT        IDC_ED_MAT_SNOW2,252,181,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SNOW2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,272,181,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,292,182,23,8
+    EDITTEXT        IDC_ED_MAT_SNOW1,318,181,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SNOW1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,338,181,11,12
+    GROUPBOX        "Liquide",IDC_STATIC,7,199,206,26
+    LTEXT           "Eau :",IDC_STATIC,14,210,26,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_ED_MAT_WATER1,43,208,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_WATER1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,63,208,11,12
+    LTEXT           "Lave :",IDC_STATIC,85,210,20,8
+    EDITTEXT        IDC_ED_MAT_LAVA1,108,208,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_LAVA1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,127,208,11,12
+    LTEXT           "Glace :",IDC_STATIC,148,210,23,8
+    EDITTEXT        IDC_ED_MAT_ICE1,173,208,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_ICE1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,193,208,11,12
+    GROUPBOX        "Ruine",IDC_STATIC,217,199,141,26
+    LTEXT           "3 Hex :",IDC_STATIC,226,210,24,8
+    EDITTEXT        IDC_ED_MAT_RUIN3,252,208,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_RUIN3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,272,208,11,12
+    LTEXT           "2 Hex :",IDC_STATIC,292,210,23,8
+    EDITTEXT        IDC_ED_MAT_RUIN2,318,208,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_RUIN2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,338,208,11,12
+    GROUPBOX        "Chateau",IDC_STATIC,7,226,469,43
+    LTEXT           "B coin :",IDC_STATIC,14,237,29,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_BCORNER,44,235,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_BCORNER,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,64,235,11,12
+    LTEXT           "B droit :",IDC_STATIC,82,237,25,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_BSTRAIGHT,108,235,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_BSTRAIGHT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,128,235,11,12
+    LTEXT           "B fin :",IDC_STATIC,147,237,20,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_BEND,173,235,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_BEND,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,193,235,11,12
+    LTEXT           "M coin :",IDC_STATIC,212,237,25,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_WCORNER,238,235,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_WCORNER,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,235,11,12
+    LTEXT           "M droit :",IDC_STATIC,275,237,27,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_WSTRAIGHT,303,235,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_WSTRAIGHT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,323,235,11,12
+    LTEXT           "M fin :",IDC_STATIC,344,237,21,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_WEND,368,235,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_WEND,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,388,235,11,12
+    LTEXT           "Drap. :",IDC_STATIC,411,237,24,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_FLAG,435,235,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_FLAG,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,455,235,11,12
+    LTEXT           "9 Hex :",IDC_STATIC,14,254,29,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_9,44,252,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_9,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,64,252,11,12
+    LTEXT           "7 Hex :",IDC_STATIC,82,254,25,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_7,108,252,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,128,252,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,148,254,24,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_1,174,252,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,194,252,11,12
+    LTEXT           "Prot. :",IDC_STATIC,212,254,25,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_BATTLEMENT,238,252,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_BATTLEMENT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,258,252,11,12
+    LTEXT           "Porte :",IDC_STATIC,279,254,24,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_DOOR,303,252,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_DOOR,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,323,252,11,12
+    LTEXT           "Ech. :",IDC_STATIC,344,254,20,8
+    EDITTEXT        IDC_ED_MAT_CASTLE_LADDER,368,252,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_CASTLE_LADDER,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,388,252,11,12
+    GROUPBOX        "Glyphe",IDC_STATIC,370,7,181,218
+    LTEXT           "A (Astrid) :",IDC_STATIC,378,18,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHA,429,16,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHA,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,16,11,12
+    LTEXT           "G (Gerda) :",IDC_STATIC,377,34,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHG,429,32,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHG,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,32,11,12
+    LTEXT           "I (Ivor) :",IDC_STATIC,377,49,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHI,429,48,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHI,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,48,11,12
+    LTEXT           "V (Valda) :",IDC_STATIC,378,66,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHV,429,64,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHV,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,64,11,12
+    LTEXT           "D (Dagmar) :",IDC_STATIC,377,82,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHD,429,80,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHD,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,80,11,12
+    LTEXT           "B (Brandar) :",IDC_STATIC,377,98,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHB,429,96,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHB,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,96,11,12
+    LTEXT           "K (Kelda) :",IDC_STATIC,377,114,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHK,429,112,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHK,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,112,11,12
+    LTEXT           "E (Erland) :",IDC_STATIC,377,130,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHE,429,128,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHE,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,128,11,12
+    LTEXT           "M (Mitonsoul) :",IDC_STATIC,377,146,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHM,429,144,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHM,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,144,11,12
+    LTEXT           "L (Lodin) :",IDC_STATIC,377,161,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHL,429,160,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHL,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,160,11,12
+    LTEXT           "S (Sturla) :",IDC_STATIC,377,177,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHS,429,176,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHS,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,176,11,12
+    LTEXT           "R (Rannveigl) :",IDC_STATIC,377,193,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHR,429,192,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHR,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,192,11,12
+    LTEXT           "J (Jalgard) :",IDC_STATIC,377,209,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHJ,429,208,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHJ,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,449,208,11,12
+    PUSHBUTTON      "&Efface tout",IDC_BT_ERASE_ALL,7,352,49,14
+    PUSHBUTTON      "+ &Master set",IDC_BT_ADD_MASTER_SET,60,352,50,14
+    PUSHBUTTON      "+ &Forêt",IDC_BT_ADD_FORGOTTEN_FOREST,113,352,67,14
+    PUSHBUTTON      "+ &Volcan",IDC_BT_ADD_VOLCAREN_WASTELAND,184,352,65,14
+    PUSHBUTTON      "+ &Glacier",IDC_BT_ADD_TUNDRA,252,352,55,14
+    PUSHBUTTON      "+ &Terrain",IDC_BT_ADD_TERRAIN,310,352,54,14
+    PUSHBUTTON      "+ &Chateau",IDC_BT_ADD_CASTLE,367,352,58,14
+    DEFPUSHBUTTON   "OK",IDOK,445,371,50,14
+    PUSHBUTTON      "&Annuler",IDCANCEL,501,371,50,14
+    PUSHBUTTON      "&Sauve la collection",IDC_BT_SAVE_COLLECTION,7,371,78,14
+    PUSHBUTTON      "Charge une co&llection",IDC_BT_LOAD_COLLECTION2,89,371,78,14
+    GROUPBOX        "Marvel",IDC_STATIC,7,270,469,25
+    LTEXT           "Béton 7 :",IDC_STATIC,15,281,29,8
+    EDITTEXT        IDC_ED_MAT_MARVEL_CONCRETE7,45,279,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_MARVEL_CONCRETE7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,65,279,11,12
+    LTEXT           "Béton 2 :",IDC_STATIC,79,281,29,8
+    EDITTEXT        IDC_ED_MAT_MARVEL_CONCRETE2,109,279,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_MARVEL_CONCRETE2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,129,279,11,12
+    LTEXT           "Béton 1 :",IDC_STATIC,145,281,30,8
+    EDITTEXT        IDC_ED_MAT_MARVEL_CONCRETE1,175,279,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_MARVEL_CONCRETE1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,195,279,11,12
+    LTEXT           "Asph 7 :",IDC_STATIC,211,281,27,8
+    EDITTEXT        IDC_ED_MAT_MARVEL_ASPHALT7,239,279,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_MARVEL_ASPHALT7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,259,279,11,12
+    LTEXT           "Asph 2 :",IDC_STATIC,277,281,27,8
+    EDITTEXT        IDC_ED_MAT_MARVEL_ASPHALT2,305,279,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_MARVEL_ASPHALT2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,325,279,11,12
+    LTEXT           "Asph 1 :",IDC_STATIC,341,281,28,8
+    EDITTEXT        IDC_ED_MAT_MARVEL_ASPHALT1,369,279,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_MARVEL_ASPHALT1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,389,279,11,12
+    LTEXT           "Ruine :",IDC_STATIC,413,281,24,8
+    EDITTEXT        IDC_ED_MAT_MARVEL_RUIN6,437,279,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_MARVEL_RUIN6,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,457,279,11,12
+    GROUPBOX        "Marais",IDC_STATIC,8,297,469,25
+    LTEXT           "24 Hex :",IDC_STATIC,16,308,29,8
+    EDITTEXT        IDC_ED_MAT_SWAMP24,46,305,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SWAMP24,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,66,305,11,12
+    LTEXT           "7 Hex :",IDC_STATIC,84,308,24,8
+    EDITTEXT        IDC_ED_MAT_SWAMP7,110,305,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SWAMP7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,130,305,11,12
+    LTEXT           "3 Hex :",IDC_STATIC,150,308,24,8
+    EDITTEXT        IDC_ED_MAT_SWAMP3,176,305,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SWAMP3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,196,305,11,12
+    LTEXT           "2 Hex :",IDC_STATIC,215,308,24,8
+    EDITTEXT        IDC_ED_MAT_SWAMP2,240,305,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SWAMP2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,260,305,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,280,308,24,8
+    EDITTEXT        IDC_ED_MAT_SWAMP1,306,305,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SWAMP1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,326,305,11,12
+    LTEXT           "Eau :",IDC_STATIC,337,308,29,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_ED_MAT_SWAMP_WATER1,369,306,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SWAMP_WATER1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,389,306,11,12
+    PUSHBUTTON      "+ &Marvel",IDC_BT_ADD_MARVEL,428,352,58,14
+    PUSHBUTTON      "+ &Swarm Marro",IDC_BT_ADD_SWARM,489,352,58,14
+    LTEXT           "W (Wannok) :",IDC_STATIC,464,18,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHW,515,16,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHW,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,535,16,11,12
+    LTEXT           "P (Proftaka) :",IDC_STATIC,463,34,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHP,515,32,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHP,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,535,32,11,12
+    LTEXT           "O (Oreld) :",IDC_STATIC,463,50,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHO,515,48,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHO,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,535,48,11,12
+    LTEXT           "N (Nilrend) :",IDC_STATIC,463,66,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHN,515,64,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHN,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,535,64,11,12
+    LTEXT           "C (Crevcor) :",IDC_STATIC,463,82,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHC,515,80,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHC,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,535,80,11,12
+    LTEXT           "T (Thorian) :",IDC_STATIC,463,98,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHT,515,96,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,535,96,11,12
+    LTEXT           "U (Ulaniva) :",IDC_STATIC,463,114,55,8
+    EDITTEXT        IDC_ED_MAT_GLYPHU,515,112,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_GLYPHU,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,535,112,11,12
+    LTEXT           "Niche :",IDC_STATIC,410,309,25,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_ED_MAT_SWAMP_HIVE6,438,306,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_SWAMP_HIVE6,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,458,306,11,12
+    GROUPBOX        "Jungle de Ticalla",IDC_STATIC,285,61,73,56
+    LTEXT           "Palm :",IDC_STATIC,293,76,23,8
+    EDITTEXT        IDC_ED_MAT_TICALLAPALM,319,74,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_TICALLAPALM,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,339,74,11,14
+    LTEXT           "Herbe :",IDC_STATIC,293,99,24,8
+    EDITTEXT        IDC_ED_MAT_TICALLAGRASS,319,97,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_TICALLAGRASS,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,339,97,11,14
+    PUSHBUTTON      "+ &Ticalla",IDC_BT_ADD_TICALLA_JUNGLE,216,371,65,14
+    GROUPBOX        "Dongeon",IDC_STATIC,8,323,543,25
+    LTEXT           "24 Hex :",IDC_STATIC,16,334,29,8
+    EDITTEXT        IDC_ED_MAT_DUNGEON24,46,331,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_DUNGEON24,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,66,331,11,12
+    LTEXT           "7 Hex :",IDC_STATIC,84,334,24,8
+    EDITTEXT        IDC_ED_MAT_DUNGEON7,110,331,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_DUNGEON7,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,130,331,11,12
+    LTEXT           "3 Hex :",IDC_STATIC,150,334,24,8
+    EDITTEXT        IDC_ED_MAT_DUNGEON3,176,331,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_DUNGEON3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,196,331,11,12
+    LTEXT           "2 Hex :",IDC_STATIC,216,334,24,8
+    EDITTEXT        IDC_ED_MAT_DUNGEON2,240,331,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_DUNGEON2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,260,331,11,12
+    LTEXT           "1 Hex :",IDC_STATIC,280,334,24,8
+    EDITTEXT        IDC_ED_MAT_DUNGEON1,306,331,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_DUNGEON1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,326,331,11,12
+    LTEXT           "Ombre :",IDC_STATIC,338,334,29,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_ED_MAT_DUNGEON_SHADOW1,370,331,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_DUNGEON_SHADOW1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,390,331,11,12
+    LTEXT           "Pic 1 :",IDC_STATIC,410,335,25,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_ED_MAT_DUNGEON_OUTCROP1,438,331,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_DUNGEON_OUTCROP1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,458,331,11,12
+    LTEXT           "Pic 3 :",IDC_STATIC,472,334,25,8,0,WS_EX_RIGHT
+    EDITTEXT        IDC_ED_MAT_DUNGEON_OUTCROP3,500,331,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_MAT_DUNGEON_OUTCROP3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,520,331,11,12
+    PUSHBUTTON      "+ &Dungeon",IDC_BT_ADD_DUNGEON,287,371,65,14
+END
+
+IDD_CONFIG_DOC DIALOGEX 0, 0, 376, 281
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Paramètres du champs de bataille"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,259,260,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,319,260,50,14
+    LTEXT           "Nom du champs de bataille :",IDC_STATIC,7,8,92,8
+    EDITTEXT        IDC_EDIT_BATTLEFIELDNAME,100,7,269,12,ES_AUTOHSCROLL
+    LTEXT           "Auteur :",IDC_STATIC,70,24,29,8
+    EDITTEXT        IDC_EDIT_AUTHOR,100,23,120,12,ES_AUTOHSCROLL
+    GROUPBOX        "Impression",IDC_STATIC,7,213,362,42
+    LTEXT           "Nombre de niveau par page :",IDC_STATIC,13,224,94,8
+    COMBOBOX        IDC_COMBO_LEVELBYPAGE,110,223,27,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Degré de transparence (%) :",IDC_STATIC,156,224,93,8
+    EDITTEXT        IDC_EDIT_PRINTTRANSPARENCY,252,223,28,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_PRINT_TRANSPARENCY,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,278,223,11,12
+    CONTROL         "Imprimer la grille",IDC_CHECK_PRINTGRID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,240,93,8
+    LTEXT           "Nombre de joueurs :",IDC_STATIC,277,25,65,8
+    EDITTEXT        IDC_EDIT_PLAYER_NUMBER,345,24,24,12,ES_AUTOHSCROLL
+    LTEXT           "Scénario :",IDC_STATIC,7,46,33,8
+    CONTROL         "",IDC_RICHEDIT_SCENARIO,"RichEdit20W",ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_NOHIDESEL | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,7,61,362,148
+    PUSHBUTTON      "Gras",IDC_BUTTON_BOLD,71,43,19,16
+    PUSHBUTTON      "Souligné",IDC_BUTTON_UNDERLINE,94,43,33,16
+    PUSHBUTTON      "Italique",IDC_BUTTON_ITALIC,130,43,33,16
+    CONTROL         "",IDC_BUTTON_TEXTCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,198,43,19,16
+    LTEXT           "Texte :",IDC_STATIC,172,47,23,8
+    CONTROL         "",IDC_BUTTON_BACKCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,249,43,19,16
+    LTEXT           "Fond :",IDC_STATIC,223,47,23,8
+    CONTROL         "Imprimer le nombre de tuile",IDC_CHECK_PRINT_TILE_NUMBER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,109,240,103,8
+    CONTROL         "Imprimer les zone départ séparement",IDC_CHECK_PRINT_START_AREA_AS_LEVEL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,230,240,134,8
+END
+
+IDD_PREFERENCE DIALOGEX 0, 0, 294, 294
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Préférences"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,167,273,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,237,273,50,14
+    GROUPBOX        "Vue 3D",IDC_STATIC,7,7,280,108
+    CONTROL         "",IDC_SLIDER_SHADOW_QUALITY,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,89,15,94,24
+    LTEXT           "Qualité de l'ombre :",IDC_STATIC,14,20,63,10
+    LTEXT           "Contrast de l'ombre :",IDC_STATIC,14,49,70,9
+    CONTROL         "",IDC_SLIDER_SHADOW_CONTRAST,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,89,41,94,24
+    GROUPBOX        "Vue photo",IDC_STATIC,7,121,188,136
+    LTEXT           "Qualité :",IDC_STATIC,14,138,28,8
+    CONTROL         "",IDC_SLIDER_PHOTO_QUALITY,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,89,130,98,24
+    CONTROL         "Profondeur de champs",IDC_CHECK_DEPTH_FIELD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,192,98,8
+    LTEXT           "Ouverture :",IDC_STATIC,16,211,39,8
+    EDITTEXT        IDC_ED_DEPTHFIELD_APERTURE,57,209,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_DEPTHFIELD_APERTURE,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,77,209,11,12
+    LTEXT           "Distance nette :",IDC_STATIC,94,211,51,8
+    EDITTEXT        IDC_ED_DEPTHFIELD_DISTANCE,149,209,25,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_DEPTHFIELD_DISTANCE,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,173,209,11,12
+    LTEXT           "Qualité Profondeur :",IDC_STATIC,15,234,66,8
+    CONTROL         "",IDC_SLIDER_PHOTO_DEPTH_FIELD_QUALITY,
+                    "msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,89,226,98,24
+    CONTROL         "Afficher le plateau",IDC_CHECK_DISPLAY_TABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,193,22,76,10
+    LTEXT           "Fond :",IDC_STATIC,194,51,34,8
+    CONTROL         "",IDC_BT_BACKGROUNDCOLOR3D,"Button",BS_OWNERDRAW | WS_TABSTOP,233,45,29,18
+    GROUPBOX        "Vue 2D",IDC_STATIC,203,121,84,64
+    LTEXT           "Fond :",IDC_STATIC,211,138,34,8
+    CONTROL         "",IDC_BT_BACKGROUNDCOLOR2D,"Button",BS_OWNERDRAW | WS_TABSTOP,250,132,29,18
+    LTEXT           "Luminosité :",IDC_STATIC,15,164,57,8
+    CONTROL         "",IDC_SLIDER_PHOTO_LUMINOSITY,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,89,155,98,24
+    LTEXT           "Textures :",IDC_STATIC,14,74,70,9
+    COMBOBOX        IDC_COMBO_TEXTURE_TYPE,97,73,77,88,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Unités :",IDC_STATIC,211,165,26,8
+    COMBOBOX        IDC_COMBO_UNIT,239,163,40,40,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Déplacement alternatif",IDC_CHECK_MOVE_SOLIDSCAPE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,192,73,88,15
+    GROUPBOX        "Vue topographique",IDC_STATIC,203,189,84,68
+    LTEXT           "Haut :",IDC_STATIC,211,209,29,8
+    LTEXT           "Bas :",IDC_STATIC,211,236,25,8
+    CONTROL         "",IDC_BT_TOPOGRAPHICCOLORHIGH,"Button",BS_OWNERDRAW | WS_TABSTOP,250,204,29,18
+    CONTROL         "",IDC_BT_TOPOGRAPHICCOLORLOW,"Button",BS_OWNERDRAW | WS_TABSTOP,250,231,29,18
+    LTEXT           "Mode anaglyphique :",IDC_STATIC,15,98,76,10
+    COMBOBOX        IDC_COMBO_ANAGLYPHIQUE_MODE,97,96,77,88,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PROGRESS DIALOGEX 0, 0, 237, 40
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Progression"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESS_BAR,"msctls_progress32",WS_BORDER,7,7,223,12
+    CTEXT           "Vous pouvez arrêter avec la touche 'Echap.'",IDC_STATIC,18,25,184,8
+END
+
+IDD_TILEPERSO DIALOGEX 0, 0, 183, 164
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Caracteristiques"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,73,143,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,126,143,50,14
+    LTEXT           "Nom :",IDC_STATIC,7,8,29,8
+    EDITTEXT        IDC_EDIT_TILETYPENAME,87,7,89,12,ES_AUTOHSCROLL
+    LTEXT           "Nombre d'hexagone :",IDC_STATIC,7,24,70,8
+    COMBOBOX        IDC_COMBO_TILEPERSONBHEX,87,23,27,55,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Quantité disponible :",IDC_STATIC,7,40,68,8
+    EDITTEXT        IDC_EDIT_TILEPERSONBDISPO,87,39,28,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_TILEPERSONBDISPO,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,113,39,11,12
+    LTEXT           "Couleur sur la vue 2D :",IDC_STATIC,7,107,73,8
+    CONTROL         "",IDC_BT_COLOR2D,"Button",BS_OWNERDRAW | WS_TABSTOP,86,103,29,18
+    LTEXT           "Caractère sur vue 2D :",IDC_STATIC,7,89,76,8
+    EDITTEXT        IDC_EDIT_TILEPERSOCAR,87,87,15,12,ES_AUTOHSCROLL
+    LTEXT           "Texture sur la vue 3D :",IDC_STATIC,7,57,76,8
+    COMBOBOX        IDC_COMBO_TILEPERSOTEXTURE,87,55,89,81,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Texture de coté 3D :",IDC_STATIC,7,73,76,8
+    COMBOBOX        IDC_COMBO_TILEPERSOTEXTURESIDE,87,71,89,81,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_TILEPERSOLIST DIALOGEX 0, 0, 336, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Gestion des pièces personnelles"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Fermer",IDOK,279,161,50,14
+    CONTROL         "",IDC_LIST_TILEPERSO,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,239,168
+    PUSHBUTTON      "&Ajouter",IDC_BUTTON_ADDTILEPERSO,256,7,73,14
+    PUSHBUTTON      "&Supprimer",IDC_BUTTON_REMOVE,256,25,73,14
+    PUSHBUTTON      "&Modifier",IDC_BUTTON_MODIFY,256,44,73,14
+END
+
+IDD_JOINGAME DIALOGEX 0, 0, 241, 148
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rejoindre une partie"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Concernant le joueur :",IDC_STATIC,7,7,226,32
+    LTEXT           "Nom :",IDC_STATIC,15,22,22,8
+    EDITTEXT        IDC_EDIT_PLAYER_NAME,40,20,119,12,ES_AUTOHSCROLL
+    GROUPBOX        "Concernant le serveur :",IDC_STATIC,7,43,226,32
+    LTEXT           "Adresse IP :",IDC_STATIC,14,58,42,8
+    CONTROL         "",IDC_SERVER_IP_ADDRESS,"SysIPAddress32",WS_TABSTOP,56,56,80,12
+    LTEXT           "Port :",IDC_STATIC,145,58,22,8
+    EDITTEXT        IDC_EDIT_SERVER_PORT,169,56,36,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_SERVER_PORT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,205,56,11,12
+    GROUPBOX        "Concernant la partie :",IDC_STATIC,7,80,226,30
+    RTEXT           "Mot de passe :",IDC_STATIC,13,95,47,8
+    EDITTEXT        IDC_EDIT_GAME_PASSWORD,64,93,96,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Rejoindre la partie",IDOK,97,127,78,14
+    PUSHBUTTON      "Annuler",IDCANCEL,183,127,50,14
+END
+
+IDD_WAITINGPLAYERS DIALOGEX 0, 0, 392, 251
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Attente de connection des joueurs"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Démarrer la partie",IDOK,251,230,75,14,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Annuler",IDCANCEL,335,230,50,14
+    GROUPBOX        "Concernant la partie :",IDC_STATIC,7,7,378,109
+    GROUPBOX        "Discussion :",IDC_STATIC,7,120,378,105
+    LTEXT           "Joueurs connectés :",IDC_STATIC,14,18,69,9
+    CONTROL         "",IDC_LIST_PLAYERS_CONNECTED,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,13,29,110,78
+    EDITTEXT        IDC_EDIT_MESSAGE,48,208,286,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Envoyer",IDC_BUTTON_SEND_MESSAGE,338,208,42,13
+    LTEXT           "Message :",IDC_STATIC,13,209,33,8
+    LTEXT           "Spectateurs :",IDC_STATIC,271,18,53,10
+    CONTROL         "",IDC_LIST_WATCHER_CONNECTED,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,270,29,110,79
+    LTEXT           "Nom du champ de bataille :",IDC_STATIC,143,32,113,8
+    LTEXT           "--",IDC_BATTLEFIELD_NAME,143,42,121,8
+    LTEXT           "Joueurs maximum :",IDC_STATIC,143,67,62,8
+    LTEXT           "--",IDC_PLAYER_MAX,210,67,14,8
+    LTEXT           "Points du jeu :",IDC_STATIC,143,90,59,8
+    LTEXT           "--",IDC_GAME_POINT,210,90,14,8
+    CONTROL         "",IDC_RICHEDIT_CHAT,"RichEdit20W",WS_BORDER | WS_VSCROLL | WS_TABSTOP | 0x1044,11,132,369,71
+END
+
+IDD_CREATEGAME DIALOGEX 0, 0, 363, 300
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Création d'une partie"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Concernant le joueur :",IDC_STATIC,7,7,348,32
+    LTEXT           "Nom :",IDC_STATIC,15,22,22,8
+    EDITTEXT        IDC_EDIT_PLAYER_NAME,40,20,119,12,ES_AUTOHSCROLL
+    GROUPBOX        "Concernant la partie :",IDC_STATIC,7,43,348,191
+    RTEXT           "Nom de la partie :",IDC_STATIC,16,58,59,8
+    EDITTEXT        IDC_EDIT_GAME_NAME,79,56,96,12,ES_AUTOHSCROLL
+    RTEXT           "Mot de passe :",IDC_STATIC,199,58,47,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_GAME_PASSWORD,250,56,96,12,ES_PASSWORD | ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Mode de jeu :",IDC_STATIC,17,93,58,8
+    COMBOBOX        IDC_COMBO_GAME_TYPE,79,91,96,97,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Nombre de point :",IDC_STATIC,186,93,60,8
+    EDITTEXT        IDC_EDIT_GAME_POINT,250,91,31,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_GAME_POINT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,277,91,11,12
+    RTEXT           "Joueurs maximum :",IDC_STATIC,14,111,61,8
+    EDITTEXT        IDC_EDIT_PLAYERS_MAX,79,109,19,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_PLAYERS_MAX,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,97,109,13,12
+    RTEXT           "Spectateurs maximum :",IDC_STATIC,170,111,76,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_WATCHER_MAX,250,109,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SPIN_WATCHER_MAX,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | WS_DISABLED,277,109,11,12
+    RTEXT           "Inclure :",IDC_STATIC,17,129,58,8
+    CONTROL         "Wave 1",IDC_CHECK_GAME_WAVE1,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,79,129,41,10
+    CONTROL         "Wave 2",IDC_CHECKGAME_WAVE2,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,129,129,41,10
+    CONTROL         "Wave 3",IDC_CHECK_GAME_WAVE3,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,179,129,41,10
+    CONTROL         "Wave 4",IDC_CHECK_GAME_WAVE4,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,229,129,41,10
+    CONTROL         "Wave 5",IDC_CHECK_GAME_WAVE5,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,279,129,41,10
+    CONTROL         "Wave 6",IDC_CHECK_GAME_WAVE6,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,79,140,41,10
+    LTEXT           "Message de bienvenue :",IDC_STATIC,15,166,98,8
+    EDITTEXT        IDC_EDIT_WELCOME_MESSAGE,14,176,334,52,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    GROUPBOX        "Concernant le serveur :",IDC_STATIC,7,239,348,32
+    LTEXT           "Port :",IDC_STATIC,15,254,22,8
+    EDITTEXT        IDC_EDIT_SERVER_PORT,39,252,36,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN_SERVER_PORT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,74,252,9,12
+    LTEXT           "( Ce port doit être ouvert sur votre firewall si vous en avez un )",IDC_STATIC,96,253,248,9
+    DEFPUSHBUTTON   "Creer la partie",IDOK,210,279,78,14
+    PUSHBUTTON      "Annuler",IDCANCEL,305,279,50,14
+    CONTROL         "Wave 7",IDC_CHECK_GAME_WAVE7,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,129,140,41,10
+    CONTROL         "Wave 8",IDC_CHECK_GAME_WAVE8,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,179,140,41,10
+    CONTROL         "Wave 9",IDC_CHECK_GAME_WAVE9,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,229,140,41,10
+    LTEXT           "Adresse IP :",IDC_STATIC,182,22,42,8
+    EDITTEXT        IDC_EDIT_IP,227,20,119,12,ES_AUTOHSCROLL
+    RTEXT           "Language :",IDC_STATIC,15,76,59,8
+    EDITTEXT        IDC_EDIT_GAME_LANGAGE,79,74,267,12,ES_AUTOHSCROLL
+END
+
+IDD_OBJECTVIEW DIALOGEX 0, 0, 100, 283
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TAB_OBJECT_TYPE,"SysTabControl32",TCS_MULTILINE,7,7,86,269
+END
+
+IDD_GAMEACTIONVIEW DIALOGEX 0, 0, 313, 106
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_RICHEDIT_ACTION,"RichEdit20W",WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP | 0x18c4,7,7,299,92
+END
+
+IDD_CHOOSE_ARMY DIALOGEX 0, 0, 487, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Choisissez une armée"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,430,129,50,14
+    LTEXT           "",IDC_POINTFORARMY,7,135,166,8
+END
+
+IDD_GET_ZOOM_VALUE DIALOGEX 0, 0, 129, 51
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Niveau de zoom"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Niveau de zoom :",IDC_STATIC,7,7,57,10
+    EDITTEXT        IDC_EDIT_ZOOM_VALUE,67,7,55,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,30,50,14
+    PUSHBUTTON      "&Annuler",IDCANCEL,72,30,50,14
+END
+
+IDD_RENDER_VIDEO DIALOGEX 0, 0, 240, 116
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Paramètre de rendu vidéo"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Générer",IDOK,108,95,50,14
+    PUSHBUTTON      "&Annuler",IDCANCEL,182,95,50,14
+    LTEXT           "Nombre d'image :",IDC_STATIC,13,12,60,8
+    LTEXT           "Première image :",IDC_STATIC,14,31,58,9
+    LTEXT           "Dernière image :",IDC_STATIC,133,31,59,10
+    LTEXT           "Fichiers images :",IDC_STATIC,15,50,57,8
+    EDITTEXT        IDC_RENDER_IMAGENUMBER,75,11,33,12,ES_AUTOHSCROLL
+    CONTROL         "Haute qualité",IDC_RENDER_HIGHQUALITY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,133,11,58,13
+    EDITTEXT        IDC_RENDER_FIRSTIMAGE,75,29,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RENDER_LASTIMAGE,190,29,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RENDER_FILE,14,60,195,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_RENDER_FILE,211,60,21,13
+    CONTROL         "",IDC_RENDER_SPIN_LASTIMAGE,"msctls_updown32",UDS_ARROWKEYS,221,28,11,12
+    CONTROL         "",IDC_RENDER_SPIN_FIRSTIMAGE,"msctls_updown32",UDS_ARROWKEYS,107,29,11,12
+    CONTROL         "",IDC_RENDER_SPINNUMBERIMAGE,"msctls_updown32",UDS_ARROWKEYS,107,11,11,12
+END
+
+IDD_CHOOSELEVEL DIALOGEX 0, 0, 122, 48
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Aller à un niveau"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Niveau :",IDC_STATIC,30,8,30,8
+    EDITTEXT        IDC_ED_LEVEL,65,7,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_LEVEL,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,85,7,11,12
+    DEFPUSHBUTTON   "OK",IDOK,7,27,50,14
+    PUSHBUTTON      "Annuler",IDCANCEL,65,27,50,14
+END
+
+IDD_GET_DICE_RESULT DIALOGEX 0, 0, 252, 67
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Lancement des dés"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Fermer",IDCANCEL,195,46,50,14
+    LTEXT           "Nombre de dés :",IDC_STATIC,7,8,55,10
+    EDITTEXT        IDC_ED_DICE_NUMBER_TO_LAUNCH,83,7,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_DICE_NUMBER_TO_LAUNCH,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,103,7,11,12
+    CONTROL         "Forcer le résultat :",IDC_CHECK_FORCE_RESULT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,26,71,8
+    EDITTEXT        IDC_ED_DICE_NUMBER_RESULT,83,25,21,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SP_DICE_NUMBER_RESULT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,103,25,11,12
+    PUSHBUTTON      "Lancer les dés",IDC_BT_LAUNCH_DICE,127,7,118,31
+END
+
+IDD_JOINLISTGAME DIALOGEX 0, 0, 573, 325
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rejoindre une partie"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Concernant le joueur :",-1,7,7,558,32
+    LTEXT           "Nom :",-1,15,22,22,8
+    EDITTEXT        IDC_EDIT_PLAYER_NAME,40,20,119,12,ES_AUTOHSCROLL
+    GROUPBOX        "Concernant les serveurs :",-1,7,43,558,255
+    DEFPUSHBUTTON   "Rejoindre la partie",IDOK,419,303,78,14,WS_DISABLED
+    PUSHBUTTON      "Annuler",IDCANCEL,515,303,50,14
+    CONTROL         "",IDC_GAMELIST,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,72,543,219
+    PUSHBUTTON      "Mettre à jour la liste",IDC_BUTTON1,472,52,87,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,7,0
+ PRODUCTVERSION 1,0,7,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04e4"
+        BEGIN
+            VALUE "CompanyName", "Didier Paradis"
+            VALUE "FileDescription", "Editeur de niveau pour Heroscape"
+            VALUE "FileVersion", "1.0.7.0"
+            VALUE "InternalName", "VirtualScape.exe"
+            VALUE "LegalCopyright", "(c) Didier Paradis. Tous droits réservés."
+            VALUE "OriginalFilename", "VirtualScape.exe"
+            VALUE "ProductName", "VirtualScape"
+            VALUE "ProductVersion", "1.0.7.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_GAMECHATVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 306
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_CONFIG_MATERIAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 551
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 385
+    END
+
+    IDD_CONFIG_DOC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 369
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_PREFERENCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 287
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 287
+    END
+
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 33
+    END
+
+    IDD_TILEPERSO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_TILEPERSOLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 329
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_JOINGAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+
+    IDD_WAITINGPLAYERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 385
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 244
+    END
+
+    IDD_CREATEGAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+    END
+
+    IDD_OBJECTVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 93
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_GAMEACTIONVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 306
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+
+    IDD_CHOOSE_ARMY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 480
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_GET_ZOOM_VALUE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 122
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 44
+    END
+
+    IDD_RENDER_VIDEO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_CHOOSELEVEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 115
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 41
+    END
+
+    IDD_GET_DICE_RESULT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 245
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_JOINLISTGAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 565
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 317
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PREFERENCE DLGINIT
+BEGIN
+    IDC_COMBO_UNIT, 0x403, 3, 0
+0x6d43, "\000" 
+    IDC_COMBO_UNIT, 0x403, 5, 0
+0x6e49, 0x6863, "\000" 
+    IDC_COMBO_UNIT, 0x403, 4, 0
+0x6548, 0x0078, 
+    0
+END
+
+IDD_CREATEGAME DLGINIT
+BEGIN
+    IDC_COMBO_GAME_TYPE, 0x403, 6, 0
+0x6142, 0x6973, 0x0063, 
+    IDC_COMBO_GAME_TYPE, 0x403, 7, 0
+0x7845, 0x6570, 0x7472, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "Échec de l'initialisation d'OLE. Assurez-vous que vous utilisez la bonne version des bibliothèques OLE."
+    IDS_FILE_VERSION_TOO_RECENT "Version des fichiers trop récente."
+    IDS_AUTHOR2P            "Auteur : "
+    IDS_LEVELNUMBER         "Niveau : %i"
+    IDP_SOCKETS_INIT_FAILED "L'initialisation des sockets Windows a échoué."
+    IDS_GRASS               "Herbe"
+    IDS_ROCK                "Rocher"
+    IDS_SAND                "Sable"
+    IDS_LIQUIDE             "Liquide"
+    IDS_LAVA                "Lave"
+    IDS_ROAD                "Route"
+    IDS_SNOW                "Neige"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "VirtualScape"
+    IDR_VIRTUALSCAPE2D      "\nBataille\nBataille\nChamps de bataille Heroscape (*.hsc)\n.hsc\nVirtualScape.Document\nVirtualScape.Document"
+    IDS_OBJECT              "Objets"
+    IDS_OBJECTWINDOW        "Les objets"
+    IDS_RED                 "Rouge"
+    IDS_GREEN               "Vert"
+    IDS_BLUE                "Bleu"
+    IDS_YELLOW              "Jaune"
+    IDS_VIOLET              "Violet"
+    IDS_CYAN                "Cyan"
+    IDS_ORANGE              "Orange"
+    IDS_PURPLE              "Mauve"
+    IDS_NOT_DEFINE          "Non défini"
+    IDS_FILEVERSION_TOO_RECENT "Version des fichiers trop récente"
+    IDS_ICE                 "Glace"
+    IDS_LAVAFIELD           "Champs de lave"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "VirtualScape"
+    AFX_IDS_IDLEMESSAGE     "Prêt"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "RFP"
+    ID_INDICATOR_REC        "ENR"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Crée un nouveau champs de bataille\nNouveau"
+    ID_FILE_OPEN            "Ouvre un champs de bataille existant\nOuvrir"
+    ID_FILE_CLOSE           "Ferme le champs de bataille actif\nFermer"
+    ID_FILE_SAVE            "Enregistre le champs de bataille actif\nEnregistrer"
+    ID_FILE_SAVE_AS         "Enregistre le champs de bataille actif sous un nouveau nom\nEnregistrer sous"
+    ID_FILE_PAGE_SETUP      "Modifie les options d'impression\nMise en page"
+    ID_FILE_PRINT_SETUP     "Modifie les options d'impression et celles de l'imprimante\nConfiguration de l'impression"
+    ID_FILE_PRINT           "Imprime le document actif\nImprimer"
+    ID_FILE_PRINT_PREVIEW   "Affiche les pages entières\nAperçu avant impression"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Affiche des informations concernant le programme, le numéro de version et le copyright\nÀ propos de"
+    ID_APP_EXIT             "Quitte l'application et demande si les champs de bataille doivent être enregistrés\nQuitter"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE2       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE3       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE4       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE5       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE6       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE7       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE8       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE9       "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE10      "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE11      "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE12      "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE13      "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE14      "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE15      "Ouvrir ce champs de bataille"
+    ID_FILE_MRU_FILE16      "Ouvrir ce champs de bataille"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            " "
+    ID_PREV_PANE            " "
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "Ouvre une autre fenêtre pour le champs de bataille actif\nNouvelle fenêtre"
+    ID_WINDOW_ARRANGE       "Réorganise les icônes en bas de la fenêtre\nRéorganiser les icônes"
+    ID_WINDOW_CASCADE       "Réorganise les fenêtres de façon à ce qu'elles se superposent\nCascade"
+    ID_WINDOW_TILE_HORZ     "Réorganise les fenêtres en mosaïque de sorte qu'elles ne se superposent pas\nMosaïque"
+    ID_WINDOW_TILE_VERT     "Réorganise les fenêtres en mosaïque de sorte qu'elles ne se superposent pas\nMosaïque"
+    ID_WINDOW_SPLIT         " "
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Efface la sélection\nEffacer"
+    ID_EDIT_CLEAR_ALL       "Efface tout\nEffacer tout"
+    ID_EDIT_COPY            " "
+    ID_EDIT_CUT             " "
+    ID_EDIT_FIND            " "
+    ID_EDIT_PASTE           " "
+    ID_EDIT_REPEAT          " "
+    ID_EDIT_REPLACE         " "
+    ID_EDIT_SELECT_ALL      " "
+    ID_EDIT_UNDO            " "
+    ID_EDIT_REDO            " "
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Affiche ou masque la barre d'outils\nActiver/Désactiver Barre d'outils"
+    ID_VIEW_STATUS_BAR      "Affiche ou masque la barre d'état\nActiver/Désactiver Barre d'état"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Modifie la taille de la fenêtre"
+    AFX_IDS_SCMOVE          "Modifie la position de la fenêtre"
+    AFX_IDS_SCMINIMIZE      "Affiche la fenêtre sous forme d'icône"
+    AFX_IDS_SCMAXIMIZE      "Affiche la fenêtre en plein écran"
+    AFX_IDS_SCNEXTWINDOW    "Bascule vers la fenêtre de document suivante"
+    AFX_IDS_SCPREVWINDOW    "Bascule vers la fenêtre de document précédente"
+    AFX_IDS_SCCLOSE         "Ferme la fenêtre active et demande si les champs de bataille doivent être enregistrés"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restaure la fenêtre à sa taille normale"
+    AFX_IDS_SCTASKLIST      " "
+    AFX_IDS_MDICHILD        "Active cette fenêtre"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Rouge/cyan"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_ROTATE_RIGHT    "Pivote la sélection à droite.\nPivote à droite"
+    ID_EDIT_REMOVE          "Supprimer les objets sélectionnés.\nSupprime sélection"
+    ID_EDIT_ROTATE_LEFT     "Pivote la sélection à gauche.\nPivote à gauche"
+    ID_NEW_3DVIEW           "Créer une fenêtre 3D.\nVue 3D"
+    ID_CONFIGURATION_MAT_DISPO 
+                            "Permet de définir le matériel disponible.\nMatériel disponible"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TREE                "Arbre"
+    IDS_RUIN                "Ruine"
+    IDS_WALL                "Mur"
+    IDS_GLACIER             "Glacier"
+    IDS_GLYPH               "Glyphe"
+    IDS_START               "Départ"
+    IDS_UNKNOWN_GLYPH       "Glyphe inconnu"
+    IDS_ASTRID_GLYPH        "Glyphe d'Astrid"
+    IDS_GERDA_GLYPH         "Glyphe de Gerda"
+    IDS_IVOR_GLYPH          "Glyphe d'Ivor"
+    IDS_VALDA_GLYPH         "Glyphe de Valda"
+    IDS_DRAGMAR_GLYPH       "Glyphe de Dragmar"
+    IDS_BRANDAR_GLYPH       "Glyphe de Brandar"
+    IDS_KELDA_GLYPH         "Glyphe de Kelda"
+    IDS_ERLAND_GLYPH        "Glyphe d'Erland"
+    IDS_MITONSOUL_GLYPH     "Glyphe de Mitonsoul"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WATER               "Eau"
+    IDS_GENERALTOOLBARTITLE "Outils généraux"
+    IDS_VIEW2DTOOLBARTITLE  "Outils vue 2D"
+    IDS_OBJECTTOOLBARTITLE  "Outils objets"
+    IDS_LODIN_GLYPH         "Glyphe de Lodin"
+    IDS_STURLA_GLYPH        "Glyphe de Sturla"
+    IDS_RANNVEIG_GLYPH      "Glyphe de Rannveig"
+    IDS_JALGARD_GLYPH       "Glyphe de Jalgard"
+    IDS_CANT_COMPUTE_HIGH_QUALITY 
+                            "Impossible de calculer l'image car vous n'avez pas les extensions OpenGL Nécessaires."
+    IDS_NB_PLAYER           "Nombre de joueur : "
+    IDS_MUST_ACTIVATE_SHADOW_FOR_HIGH_QUALITY 
+                            "Vous devez activer les ombres pour un rendu de haute qualité."
+    IDS_CASTLE              "Chateau"
+    IDS_CASTLE_BASE_CORNER  "Base coin"
+    IDS_CASTLE_BASE_STRAIGHT "Base droit"
+    IDS_CASTLE_BASE_END     "Base fin"
+    IDS_CASTLE_WALL_CORNER  "Mur coin"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_AFFICHAGE_BARRE2D    "Affiche ou cache la barre d'outils des vues 2D.\nAffiche/Cache barre d'outils vues 2D"
+    ID_AFFICHAGE_BARREOBJET "Affiche ou cache la barre d'outils des objets.\nAffiche/Cache barre d'outils objets"
+    IDR_TOOLBAR3D_DISPLAYSHADOW "Affiche ou cache les ombres.\nOmbres"
+    ID_AFFICHAGE_BARRED3D   "Affiche ou cache la barre d'outils des vues 3D.\nAffiche/Cache barre d'outils vues 3D"
+    ID_SELECT_NOTHING       "Ne rien sélectionner.\nRien sélectionner"
+    ID_SELECT_ALL           "Sélectionner tous les objets.\nSélectionner tout"
+    ID_SELECT_INVERSE       "tous ce qui est sélectionné ne l'est plus et vice-versa.\nInverser sélection"
+    ID_SELECT_LEVELUP       "Monter les tuiles sélectionnées d'un niveau.\nMonter la sélection"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ZOOMIN               "Zoom positif sur la vue active.\nZoom +"
+    ID_ZOOMOUT              "Zoom négatif sur la vue active.\nZoom -"
+    ID_FULLVIEW             "Voir le champs de bataille en entier.\nVoir tout"
+    ID_LEVELUP              "Niveau supérieur sur la vue active.\nNiveau supérieur"
+    ID_LEVELDOWN            "Niveau inférieur sur la vue active.\nNiveau inférieur"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FAILED_INIT_OPENGLEXT 
+                            "Impossible d'initialiser les extensions OpenGL."
+    IDS_OPENGLEXT_REQUIREMENT 
+                            "Les extensions OpenGL nécessaires pour l'ombrage ne sont pas disponibles !"
+    IDS_VIEW3DTOOLBARTITLE  "Outils vue 3D"
+    IDS_ACTIONDONE          "effectué."
+    IDS_ULANIVA_GLYPH       "Glyphe d'Ulaniva"
+    IDS_THORIAN_GLYPH       "Glyphe de Thorian"
+    IDS_CREVCOR_GLYPH       "Glyphe de Crevcor"
+    IDS_NILREND_GLYPH       "Glyphe de Nilrend"
+    IDS_ORELD_GLYPH         "Glyphe d'Oreld"
+    IDS_PROFTAKA_GLYPH      "Glyphe de Proftaka"
+    IDS_WANNOK_GLYPH        "Glyphe de Wannok"
+    IDS_HIVE                "Niche"
+    IDS_REMAINING1          "%i%c (Temps restant %02i:%02i:%02i)"
+    IDS_REMAINING2          "%i%c (Temps restant %02i:%02i)"
+    IDS_REMAINING3          "%i%c (Temps restant %i second)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_GRIMNAK             "GRIMNAK"
+    IDS_FINNLECHAMPIONVIKING "FINN LE CHAMPION VIKING"
+    IDS_RAELINLAGUERRIEREKYRIE "RAELIN LA GUERRIERE KYRIE"
+    IDS_THORGRIMLECHAMPIONVIKING "THORGRIM LE CHAMPION VIKING"
+    IDS_GUERRIERSMARRO1_4   "GUERRIERS MARRO 1/4"
+    IDS_GUERRIERSMARRO2_4   "GUERRIERS MARRO 2/4"
+    IDS_GUERRIERSMARRO3_4   "GUERRIERS MARRO 3/4"
+    IDS_GUERRIERSMARRO4_4   "GUERRIERS MARRO 4/4"
+    IDR_VIRTUALSCAPE3D      "\nBataille\nBataille\nChamps de bataille Heroscape (*.hsc)\n.hsc\nVirtualScape.Document\nVirtualScape.Document"
+    IDS_GUARDSZETTIAN1_2    "GARDES ZETTIAN 1/2"
+    IDS_GUARDSZETTIAN2_2    "GARDES ZETTIAN 2/2"
+    IDS_GUERRIERSVIKINGTARN1_4 "GUERRIERS VIKING TARN 1/4"
+    IDS_GUERRIERSVIKINGTARN2_4 "GUERRIERS VIKING TARN 2/4"
+    IDS_GUERRIERSVIKINGTARN3_4 "GUERRIERS VIKING TARN 3/4"
+    IDS_GUERRIERSVIKINGTARN4_4 "GUERRIERS VIKING TARN 4/4"
+    IDS_ELITEAEROPORTEE1_4  "ELITE AEROPORTEE 1/4"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SELECT_LEVELDOWN     "Descendre les tuiles sélectionnées d'un niveau.\nDescendre sélection"
+    ID_OUTILS_REVERSE       "Construit en mode inverse.\nMode inverse"
+    ID_CONFIGURATION_PREFERENCY "Définir les préférences.\\Préférences"
+    ID_OUTILS_VUEHAUTEQUALITE 
+                            "Calcul une vue haute qualité de l'image courante.\nHaute qualité"
+    ID_CAMERA_GO_HOME       "Positionne la camera au point d'origine.\nVue d'origine"
+    ID_OUTILS_TOURNEAUTOUR  "Tourne autour du champs de bataille.\nTourne autour"
+    ID_OUTILS_VOIRLACONSTRUCTION 
+                            "Voir la construction du champs de bataille.\nVoir construction"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SELECT_LEVEL         "Sélectionner toute les tuiles du niveau.\nSélectionner niveau"
+    ID_AFFICHAGE_FENETRE_OBJET 
+                            "Affiche ou masque la fenêtre objet.\nAffiche/cache fenêtre objet"
+    ID_AFFICHAGE_FENETREINFORMATION 
+                            "Affiche ou masque la fenêtre information.\nAffiche/cache fenêtre information"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CASTLE_WALL_STRAIGHT "Mur droit"
+    IDS_CASTLE_WALL_END     "Mur fin"
+    IDS_CASTLE_WALL_WALK    "Sol chateau"
+    IDS_CASTLE_BATTLEMENT   "Meurtrière"
+    IDS_CASTLE_DOOR         "Porte"
+    IDS_CASTLE_LADDER       "Echelle"
+    IDS_CASTLE_FLAG         "Drapeau"
+    IDS_LANGUAGE            "Francais"
+    IDS_INFOWINDOW          "Information sur le champs de bataille"
+    IDS_INFOBAR             "Informations, problèmes et erreurs"
+    IDS_INFO_COLUMN         "Type;Niveau;Pièce;Désignation"
+    IDS_WARNING             "Attention"
+    IDS_INFORMATION         "Information"
+    IDS_CRITICAL            "Critique"
+    IDS_NOTHING_UNDER_TILE  "Il n'y a rien sous la pièce donc elle ne peut pas tenir."
+    IDS_NBTILE_ANDZMAX      "Nombre d'erreur : %i (%i+%i). Nombre de pièce : %i. Niveau le plus haut : %i."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_DOC_CHECK            "Verifie le champs de bataille.\nVerifier"
+    ID_AIDE_AIDEGLOBALE     "Manuel utilisateur de VirtualScape"
+    ID_CONFIGURATION_TILEPERSO 
+                            "Gestion des pièces personnelles.\nPièces personnelles"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OTHER_TILE_AT_SAME_PLACE 
+                            "L'emplacement est déjà utilisé par une autre pièce de type %s."
+    ID_INDICATOR_CURRENT_TILE " "
+    IDS_NBMASTERSET_ETC     "Elements requis : %i Master set, %i Volcan, %i Glacier, %i Forêt, %i Chateau."
+    IDS_CANT_LOW_LEVEL      "La sélection ne peut pas être descendue car elle est déjà au plus bas niveau."
+    IDS_NORMAL              "Normale"
+    IDS_SRMALLOY            "Srmalloy"
+    IDS_PERSONAL_HEX        "Personnel"
+    IDS_TILEPERSO_LIST      "Nom;Taille;Quantité;Texture;Texture coté"
+    IDS_NONAME              "Sans nom"
+    IDS_FIGURE              "Figurine"
+    IDS_NEGOKSA             "NE_GOK_SA"
+    IDS_AGENTCARR           "AGENT CARR"
+    IDS_MIMRING             "MIMRING"
+    IDS_SYVARRIS            "SYVARRIS"
+    IDS_MARCHEMORT9000      "MARCHEMORT 9000"
+    IDS_SGTDRAKEALEXANDER   "SGT. DRAKE ALEXANDER"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ELITEAEROPORTEE2_4  "ELITE AEROPORTEE 2/4"
+    IDS_ELITEAEROPORTEE3_4  "ELITE AEROPORTEE 3/4"
+    IDS_ELITEAEROPORTEE4_4  "ELITE AEROPORTEE 4/4"
+    IDS_SAMURAI_IZUMI1_3    "SAMURAI IZUMI 1/3"
+    IDS_SAMURAI_IZUMI2_3    "SAMURAI IZUMI 2/3"
+    IDS_SAMURAI_IZUMI3_3    "SAMURAI IZUMI 3/3"
+    IDS_AGENTS_KRAV_MAGA1_3 "AGENTS KRAV MAGA 1/3"
+    IDS_AGENTS_KRAV_MAGA2_3 "AGENTS KRAV MAGA 2/3"
+    IDS_AGENTS_KRAV_MAGA3_3 "AGENTS KRAV MAGA 3/3"
+    IDS_CASTLE_ARCH         "Arche chateau"
+    IDS_NOTHING_SELECTED    "Aucune sélection"
+    IDS_DISPLAY_SELECTED    "%i pièce(s) sélectionnée(s) sur %i niveau (%i->%i)"
+    IDS_DEFAULTGAMENAME     "Jeu heroscape"
+    IDS_DEFAULTGAMEWELCOMEMESSAGE "Bienvenue dans cette partie"
+    IDS_FILL_PLAYER_NAME    "Le champ 'Nom' du joueur doit être complété."
+    IDS_FILL_GAME_NAME      "Le champ 'Nom' de la partie doit être complété."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDITION_COUPER       "Déplacer la sélection dans le presse papier.\nCouper"
+    ID_EDITION_COLLER       "Coller du presse papier.\nColler"
+    ID_EDITION_COPIER       "Copier la sélection dans le presse papier.\nCopier"
+    ID_PLAY_CREATEGAME      "Créer une partie en tant que serveur sur internet ou un réseau local.\nCréer une partie"
+    ID_PLAY_JOINGAME        "Rejoindre une partie sur internet ou en réseau local.\nRejoindre une partie"
+    ID_PLAY_WATCHGAME       "Regarder une partie sur internet ou en réseau local.\nRegarder une partie"
+    ID_AFFICHAGE_CHAT       "Affiche/cache la fenêtre de messagerie instantanée.\nFenêtre messagerie"
+    ID_AFFICHAGE_WINDOWPLAYER 
+                            "Affiche/cache la fenêtre des joueurs.\nFenêtre joueurs"
+    ID_AFFICHAGE_WINDOW_ACTION 
+                            "Affiche/cache la fenêtre d'action.\nFenêtre action"
+    ID_JOUER_QUITTERLEJEU   "Quitter le jeu en cours.\nQuitter le jeu"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FILL_GAME_POINT     "Le champ 'Point' de la partie doit être supérieur à zéro."
+    IDS_PLAYER_MAX_TOO_LOW  "Le nombre de joueur doit être au moins de 2."
+    IDS_COLUMN_HEADER_PLAYER "Nom;Type"
+    IDS_COLUMN_HEADER_WATCHER "Nom"
+    IDR_VIRTUALSCAPEGAME3D  "\nJeu réseau\nJeu réseau\nPartie Heroscape (*.hsg)\n.hsg\nVirtualScapeGame.Document\nVirtualScapeGame.Document"
+    IDS_PT_CLIENT           "Client"
+    IDS_PT_SERVER           "Serveur"
+    IDS_BAD_SERVER_VERSION_FOR_GAME 
+                            "Votre version de VirtualScape n'est pas identique à celle du serveur.\nVous ne pouvez donc pas vous y connecter."
+    IDS_GAMECHATWINDOW      "La messagerie"
+    IDS_GAMEPLAYERWINDOW    "Liste des joueurs"
+    IDS_GAMEPLAYERVIEW      "Joueurs"
+    IDS_GAMECHATVIEW        "Discussion"
+    IDS_GAMEACTIONVIEW      "Actions"
+    IDS_GAMEACTIONWINDOW    "Liste des actions"
+    IDS_ACTION_CHOOSE_ARMY  "Choisir une armée"
+    IDS_ACTION_UNKNOWN      "Action inconnue"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_POINTFORARMY        "Points restant : %i"
+    IDS_AGENTCARRNAME       "Agent Carr"
+    IDS_AGENTCARRBASICRULE  "Test basic rule\nLigne 2"
+    IDS_AGENTCARREXPERTRULE "Expert rule\nligne 2\nligne 3"
+    IDS_SAMOURAISIZUMINAME  "Samouraïs Izumi"
+    IDS_SAMOURAISIZUMIBASICRULE "test"
+    IDS_SAMOURAISIZUMIEXPERTRULE "Test"
+    IDS_ACTION_PLACE_ARMY   "Placer une armée"
+    IDS_AGENTSDEKRAVMAGANAME "Agents de Krav Maga"
+    IDS_ELITEAEROPORTEENAME "Elite aéroportée"
+    IDS_FINNLECHAMPIONVIKINGNAME "Finn le champion viking"
+    IDS_GARDESZETTIENSNAME  "Gardes Zettiens"
+    IDS_GRIMNAKNAME         "Grimnak"
+    IDS_GUERRIERSMARRONAME  "Guerriers Marro"
+    IDS_GUERRIERSVIKINGSDETARNNAME "Guerriers vikings de Tarn"
+    IDS_MARCHEMORT9000NAME  "Marchemort 9000"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MIMRINGNAME         "Mimring"
+    IDS_NEGOKSANAME         "Ne-Gok-Sa"
+    IDS_RAELINLAGUERRIEREKYRIENAME "Raelin la guerrière Kyrie"
+    IDS_SGTDRAKEALEXANDERNAME "Sgt Drake Alexander"
+    IDS_SYVARRISNAME        "Syvarris"
+    IDS_THORGRIMLECHAMPIONVIKINGNAME "Thorgrim le champion viking"
+    IDS_MARVEL              "Marvel"
+    IDS_SWAMPWATER          "Eau des marais"
+    IDS_SWAMP               "Marais"
+    IDS_CONCRETE            "Béton"
+    IDS_ASPHALT             "Bitume"
+    IDS_SWARM               "Swarm"
+    IDS_RUINBREAKED         "Ruine cassée"
+    IDS_SIZE                "Taille : "
+    IDS_BASIC               "Base"
+    IDS_TUNDRA              "Neige"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ZOOMVALUE            "Définir le niveau de zoom.\nNiveau zoom"
+    ID_OUTILS_NUMBER        "Affiche les lignes et colonnes.\nLigne et colonnes"
+    ID_VIDEO_ERASE_ALL_POSITION 
+                            "Supprime toute les positions clefs de l'animation.\nSupprime positions clefs."
+    ID_VIDEO_ADD_CURRENT_POSITION 
+                            "Ajoute la position courante de la caméra dans l'animation.\nAjoute position clef."
+    ID_VIDEO_MOVE_REALTIME  "Jouer l'animation en temps réel.\nJouer animation."
+    ID_VIDEO_CREATE_FILE    "Créer les fichiers image pour l'animation.\nCréer fichiers image."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FORTRESS            "Chateau"
+    IDS_VOLCARREN           "Volcan"
+    IDS_TICALLA             "Jungle"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OUTILS_INSERTLEVEL   "Insérer un niveau sous le niveau actuel.\nInsérer niveau."
+    ID_OUTILS_REMOVELEVEL   "Supprime le niveau actuel.\nSupprime niveau."
+    ID_BUTTON32899          "Supprime toute les positions clefs de l'animation.\nSupprime positions clefs."
+    ID_OUTILS_ALLER32907    "Aller directement à un niveau.\nAller niveau"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TICALLA_PALM        "Palmier"
+    IDS_TICALLA_GRASS       "Buisson"
+    IDS_RED_BLUE            "Rouge/bleu"
+    IDS_RED_GREEN           "Rouge/vert"
+    IDS_RED_CYAN            "Rouge/cyan"
+    IDS_DUNGEON_HEX         "Dongeon"
+    IDS_SHADOW              "Ombre"
+    IDS_DUNGEON             "Dongeon"
+    IDS_OUTCROP             "Pic"
+    IDS_ARROW_GRUTS1_3      "ARROW GRUTS 1/3"
+    IDS_ARROW_GRUTS2_3      "ARROW GRUTS 2/3"
+    IDS_ARROW_GRUTS3_3      "ARROW GRUTS 3/3"
+    IDS_KELDA_THE_KYRIE_WARRIOR "KELDA THE KYRIE WARRIOR"
+    IDS_BLADE_GRUTS1_4      "BLADE GRUTS 1/4"
+    IDS_BLADE_GRUTS2_4      "BLADE GRUTS 2/4"
+    IDS_BLADE_GRUTS3_4      "BLADE GRUTS 3/4"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OUTILS_VUETOPOGRAPHIQUE 
+                            "Afficher sous forme de vue topographique.\nVue topographique"
+    ID_OUTILS_VUESTEREO     "Afficher en vue stéréoscopique.\nVue stéréo"
+    ID_OUTILS_VUESTEREOINTERLACED 
+                            "Affichage en vue stéréo interlacée (écran Zalman trimon).\nVue stéréo interlacée"
+    ID_SELECT_SAME_TILE_SAME_LEVEL 
+                            "Sélectionner les tuiles du mème type sur le mème niveau.\nSelectionner meme tuile meme niveau"
+    ID_PLACE_FIGURE_ON_MAP  "Place une figurine sur la carte.\nPlace figurine"
+    ID_REMOVE_FIGURE_FROM_MAP 
+                            "Enlève une figurine de la carte.\nEnlève figurine"
+    ID_MOVE_FIGURE          "Déplace une figurine.\nDéplace figurine"
+    ID_ATTACK_CHOOSE_FIGURE "Choisir la figurine d'attaque et les ennemis attaqués.\nAttaque"
+    ID_ATTACK_DICE          "Lance les dés d'attaque.\nDés d'attaque"
+    ID_DEFENSE_DICE         "Lance les dés de défense.\nDés de défense"
+    ID_NEXT_TURN            "Passe au tour suivant.\nTour suivant"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BLADE_GRUTS4_4      "BLADE GRUTS 4/4"
+    IDS_MARCUS_DECIMUS_GALLUS "MARCUS DECIMUS GALLUS"
+    IDS_OMNICRON_SNIPERS1_3 "OMNICRON SNIPERS 1/3"
+    IDS_ROMAN_ARCHERS       "ROMAN ARCHERS"
+    IDS_ROMAN_LEGIONNAIRS1_4 "ROMAN LEGIONNAIRES 1/4"
+    IDS_ROMAN_LEGIONNAIRS2_4 "ROMAN LEGIONNAIRES 2/4"
+    IDS_ROMAN_LEGIONNAIRS3_4 "ROMAN LEGIONNAIRES 3/4"
+    IDS_ROMAN_LEGIONNAIRS4_4 "ROMAN LEGIONNAIRES 4/4"
+    IDS_TAELORD_THE_KYRIE_WARRIOR "TAELORD THE KYRIE WARRIOR"
+    IDS_TORNAK              "TORNAK"
+    IDS_VENOC_VIPERS        "VENOC VIPERS"
+    IDS_VENOC_WARLORD       "VENOC WARLORD"
+    IDS_GAMETOOLBARTITLE    "Partie :"
+    IDS_FREEGAME            "Jeu libre en cours"
+    IDS_ALL_FIGURE_PLACED   "Toute les figurines sont déjà placées."
+    IDS_PLACED_ARMY         "Positionnement de la figurine %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REMOVED_ARMY        "Suppression de la figurine %s"
+    IDS_MOVED_ARMY          "Déplacement de la figurine %s"
+    IDS_ATTACK_LAUNCH       "Lancement d'une attaque de %s contre %s"
+    IDS_DEFENSE_LAUNCH      "Défense de %s. Obtient %i/%i (%s)"
+    IDS_ATTACK_DICE         "Lancement des dés d'attaque. Obtient %i/%i (%s)"
+    IDS_DICE_FORCED         "Dés forcés"
+    IDS_DICE_NOT_FORCED     "Dés non forcés"
+    IDS_NEXT_TURN           "************ Passage au tour suivant **************"
+    IDS_CONTEXTUALMENU_ADDONELIFE "Ajoute une vie"
+    IDS_CONTEXTUALMENU_REMOVEONELIFE "Retire une vie"
+    IDS_INCREMENT_ARMY_LIFE "Ajoute une vie à l'armée %s du joueur %s"
+    IDS_DECREMENT_ARMY_LIFE "Supprime une vie à l'armée %s du joueur %s"
+    IDS_CONTEXTUALMENU_ADDPREDICTEDX "Marqueur d'ordre X"
+    IDS_ADD_PREDICTED_MARQUER "Ajout d'un marqueur d'ordre sur l'armée %s"
+    IDS_CONTEXTUALMENU_ADDPREDICTED1 "Marqueur d'ordre 1"
+    IDS_CONTEXTUALMENU_ADDPREDICTED2 "Marqueur d'ordre 2"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OUTILS_SAUVERLEREPLAYDELAPARTIE 
+                            "Sauve le replay de la partie sous forme de fichiers image.\nSauver replay en image"
+    ID_OUTILS_ANIMATIONSTOURNANTE 
+                            "Chacque action occasionne une animation autour de l'objet.\nAnimations tournantes"
+    ID_OUTILS_ANIMATIONSSIMPLES 
+                            "Chaque action occasionne une animation simple.\nAnnimations simples"
+    ID_OUTILS_PASD          "Aucune animation n'a lieu pour les actions.\nPas d'animation"
+    ID_REPLAY_GAME          "Rejoue la partie.\nRejoue partie"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CONTEXTUALMENU_ADDPREDICTED3 "Marqueur d'ordre 3"
+    IDS_CONTEXTUALMENU_SHOWPREDICTED "Montre le prochain marqueur d'ordre"
+    IDS_SHOW_PREDICTED_MARQUER "Affichage du marqueur d'ordre de l'armée %s"
+    IDS_DIE_20_FACES        "Lancement du dé 20 faces. Obtient %i."
+    IDS_SERVER_LIST_COLUMNS "Nom du serveur;Createur;IP;Port;Type serveur;Language"
+    IDS_BASICRULES          "Basic"
+    IDS_EXPERTRULES         "Expert"
+    IDS_CONTEXTUALMENU_REMOVEMARKER "Enlève tous les marqueurs d'ordre"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REPLAY_TO_FILE       "Sauver le replay en haute qualité dans des fichiers pour en faire une animation.\nFaire un film d'animation"
+    ID_DIE_20               "Lance le dé à 20 faces.\nDé 20 faces"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#include "res\HeroscapeEditor.rc2"  // ressources non modifiées par Microsoft Visual C++
+#include "afxres.rc"         // Composants standard
+#include "afxprint.rc"       // ressources impression/aperçu avant impression
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

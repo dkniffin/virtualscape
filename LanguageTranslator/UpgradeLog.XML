@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LanguageTranslator">
+</Property><Property Name="Solution File" Value="L:\ToSave\Devpt\Visual C++ 2008\HeroscapeEditor\LanguageTranslator\LanguageTranslator.sln">
+</Property><Property Name="Date" Value="mardi 29 avril 2008">
+</Property><Property Name="Time" Value="21:06">
+</Property></Properties><Event ErrorLevel="0" Project="LanguageTranslator" Source="LanguageTranslator.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="LanguageTranslator" Source="LanguageTranslator.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="LanguageTranslator" Source="LanguageTranslator.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="LanguageTranslator" Source="LanguageTranslator.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LanguageTranslator.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="LanguageTranslator.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

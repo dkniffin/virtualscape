@@ -1,0 +1,31 @@
+- Add capability to choose margin in the printed page
+- Add base of glacier and hive as particular object (can use without glacier or hive)
+- capability to reverse Glacier
+- undo/redo
+- Merge map
+- Improve way to place battlement and ladder
+- Play mode (online,lan) (basic,expert) when hasbro will give is agrement
+- Recognized any subdirectory under /Images as a tile set
+- Better verification
+- Copy verify result into clipboard
+- Remember last number of map per page for next new map
+- Print in monochrome
+- Add lexan mats
+- ladder to display by other way in print scenario (because on ladder each 2 level)
+- manage extension for count necessary set to make the map
+- Add the "add collection" button for merge collection
+- Capability to rotate severale tile simultanously.
+- Moving camera like solidscape (for parduz)
+- Detach a window
+- a bitmap as background instead of solid color
+- Le scenario peut faire plus d'une page.
+- Piece personnelle de la hauteur de l'eau/lave/glace. (pour Jeannot)
+- Swarm of the marro n'est pas pris en compte dans la verification.
+- un message a chaque fois qu'on place plus de piece qu'on en possede. (optionnel)
+- Un bouton pour positionner la position par default de la camera.
+- Afficher l'auteur et le nom de la map automatiquement avec une option dans les parametres de la map.
+- pour l'impression prendre la copie d'ecran a partir des extensions opengl si elles sont disponible sinon prendre a partir d'une copie ecran comme maintenant.
+- Option to print starting zone with map or at another level (like actually).
+- Display 2x on 2D view for double water
+
+

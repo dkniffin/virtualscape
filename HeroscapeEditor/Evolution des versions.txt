@@ -1,0 +1,304 @@
+==================================================
+
+1.066 The Evolution on this version (Available the 29 aou 2009) :
+
+Add the D&D master set and his tiles
+Fix a bug for height dimension
+Add figures of wave1 (without texture and without tornak and omnicron)
+Add capability to print start area as normal tile or as new level
+
+==================================================
+
+1.064 The Evolution on this version (Available the 26 jan 2009) :
+
+Capability to select same tile of same type in same level.
+3 palm size (14 - 15 - 16).
+Representation for jungle object as in the official hasbro doc.
+base for palm and brush as swamp.
+( hsc file as change so file create with this version of Virtualscape will be unavailable with old virtualscape version)
+
+==================================================
+
+1.062 The Evolution on this version (Available the 13 oct 2008) :
+
+Display in stereoscopic view for zalman monitor.
+Fix bug about loading texture in chinese windows.
+Display animated shadow when rendering high quality.
+
+==================================================
+
+1.060 The Evolution on this version (Available the 18 Sep 2008) :
+
+Better mesh of the jandar flag (thanks Brian).
+Fix bug about blank level when print.
+
+==================================================
+
+1.059 The Evolution on this version (Available the 15 Sep 2008) :
+
+Fixed bug about blank level under start level
+Better mesh for palm of Ticalla jungle
+Button to add a ticalla set
+try to correct bug of dark shadow (use less video memory)
+
+==================================================
+
+1.058 The Evolution on this version (Available the 05 May 2008) :
+
+Capability to configure topographic color
+Stereoscopic view with bicolor glasses
+Capability to rotate palm and ticalla grass
+
+==================================================
+
+1.056 The Evolution on this version (Available the 29 Apr 2008) :
+
+Add ticalla jungle tile (first version because I'm waiting to receive real extension to create better mesh)
+Capability to print quantity of each tile in the last page.
+Capability to display topographic view
+
+==================================================
+
+1.052 The Evolution on this version (Available the 11 feb 2008) :
+
+Optimisation for large map (this is a big modification and can create bug on refresh so please let me know if you have some trouble)
+Ability to go directly to a level (by Ctrl+G or in menu item)
+Start area are now print on a last map in the printing mode (for Parduz)
+Ladder are now more red ( for GameBear, please let me know if this ok now or if you need more difference)
+Virtualscape is now compiling with visual studio 2008
+Tile castle are now lighter than road tile
+Capability to create video of the map
+Add feature insert/remove level
+Bug fix : about saving glyph marro and hive in the material editor
+Bug fix : about print and print preview number
+
+==================================================
+
+1.047 The Evolution on this version (Available the 02 nov 2007) :
+
+Capability to print a map with number to get coord to play by mail for exemple
+Add margin for the last printed page
+Bug fix : some minor bug like water instead wate
+Bug fixed : now the name of the hive is Hive and not 6
+Add hive and glyph of swarm in the material editor
+Glyph of the Swarm master set are add
+Tab ar reorganise by master set or expansion
+Map mesurement is displayed in the last printed page
+Ability to display mesurement as hex
+Button add terrain now add 4 sand 1 hex and 6 rock 1 hex
+
+==================================================
+
+1.042 The Evolution on this version (Available the 22 oct 2007) :
+
+Add the base automatically to the Hive
+
+==================================================
+
+1.041 The Evolution on this version (Available the 21 oct 2007) :
+
+Add the hive
+Bug fixed about save collection
+Side of Asphalt tile in the 3D view have now a correct color.
+Add button marvel and swarm of the marro in the material configuration.
+Change tab divers as misc.
+Add the Marvel wall breaked (as the castle arch).
+
+==================================================
+
+1.037 The Evolution on this version (Available the 07 sep 2007) :
+
+Bug fixed : crash if you try to load map which contains concrete or asphalt.
+
+==================================================
+
+1.036 The Evolution on this version (Available the 05 sep 2007) :
+
+Add the capability to display number around map (to pay online by mail for example)
+Add the capability to set the zoom level
+Add the wall of the marvel set
+Add the concrete and asphalt tile of the Marvel set (so the marvel set is fully integrated)
+Move swamp to divers tab
+
+==================================================
+
+1.032 The Evolution on this version (Available the 28 aug 2007) :
+
+Add the swamp and swamp water tile of the Swarm of the Marro extension
+Bug fixed about personal tile count
+Now word wrap in the edit scenario on the document configuration
+Bug fixed about docking window when there are save in floating state
+Modify some terms about high quality view configuration
+
+==================================================
+
+1.025 The Evolution on this version (Available the 27 mar 2007) :
+
+Bug fixed about mesurement vertical on inch
+Add capability to format text in scenario
+
+==================================================
+
+1.023 The Evolution on this version (Available the 20 mar 2007) :
+
+Bug fixed about texture on the 3D view
+
+==================================================
+
+1.022 The Evolution on this version (Available the 13 mar 2007) :
+
+Add capability to choose unit (cm or inch)
+Display how many tile are selected and on how many level
+Add tile of water with height of 2 (for waterfall or other...)
+Add capability to save or load collection (so you can manage several collection)
+Fixed bug about move multi selection verticaly with arrow key
+A tile selection function letting you drag the mouse over tiles to select them while holding ctrl then letting go and if your still holding ctrl them you can drag again to select two or more groups of tiles
+
+==================================================
+
+1.020 The Evolution on this version (Available the 07 mar 2007) :
+
+Bug fixed about message box when you create a 3d view
+
+==================================================
+
+1.019 The Evolution on this version (Available the 06 mar 2007) :
+
+Add capability to print (or print preview) directly from 3D view
+Bug fixed about print (Now, the 3D view is correcly print in the first page)
+Add the cut, copy and paste
+Bug fixed about dialog box change background color on high quality image
+Bug fixed about castle walk hex for side texture
+Bug fixed about tabctrl at left of the application. Now it is displayed correctly after initialisation
+
+==================================================
+
+1.017 The Evolution on this version (Available the 03 dec 2006) :
+
+All the figure of the master set are available
+Capability to use castle door as arch (ask by some of you)
+Change little color or sand and rock to be most different for printer
+
+==================================================
+
+1.013 The Evolution on this version (Available the 17 sept 2006) :
+
+Add some figure of the master set.
+Bug fixed, now the name of personal tile appear on the left window
+Bug fixed, now the char is displayed on the 2D view for personal tile
+Bug fixed, replace castel with castle
+
+==================================================
+
+1.009 The Evolution on this version (Available the 09 sept 2006) :
+
+Add capability to create your own tile
+Add user's guide of Wulfebane
+Add textures of Srmalloy
+
+==================================================
+
+1.004 The Evolution on this version (Available the 27 aout 2006) :
+
+Correct bug about 3D view of hex tile wall walk
+Can't moving down selection if level is already lowest level
+
+==================================================
+
+1.003 The Evolution on this version (Available the 12 aout 2006) :
+
+Add auto computation of number of set requirement
+Add texture on tile side.
+Bug fixed : When you print on a pdf creator then the 3D view doesn't appear. (hope this is correct because at home all is ok. feel free to inform me about that).
+Now scenario is print on the last page.
+Now tile of more than one hex height are displayed with full color from bottom to top (as castle wall so it easier to know if you are at over the wall)
+Add capability to save the image in 3D view
+Now, the current tile is displayed on the status bar
+Now, when you click to add a tile on the map, this tile is selected
+Bug fixed : When you select start area then color is correct if you click to add it on the map
+Add shortcut Ctrl+Left to rotate selected tiles left
+Add shortcut Ctrl+Right to rotate selected tiles right
+Add shortcut Ctrl+Pg down to move selected tiles one level down
+Add shortcut Ctrl+Pg up to move selected tiles one level up
+
+==================================================
+
+1.000 The Evolution on this version (Available the 05 aout 2006) :
+
+Add capability to choose luminosity for photo rendering
+Add capability to verify a battle field and you can see error or warning or info. You can view the error tile directly with double click on error.
+Included images of glyph (in french and in english)
+Better quality of image for some tiles
+Bug fixed : High quality rendering doesn't disapear if 3D window need refresh
+Now battlement, ladder and flag are display differently on 2D view
+Add capability to choose background color for 2D and 3D view
+Add capability to display or not table
+Add capability to pause turn around, reverse, step forward or backward with space key, backspace key, left or right and shift key
+Bug fixed : change castel to castle in english version
+Add capability to break a high quality rendering with the escape key
+
+==================================================
+
+0.0026 The Evolution on this version (Available the 30 july 2006) :
+
+Add depth of field
+Add castle extension
+Bug fixed : now the level is write at the upper right of the window
+Bug fixed : If you drop or move a tile at a negative value then all the map is moved and the tile is at a positive value
+Add capability to display or hide the object window
+
+==================================================
+
+0.0023 The Evolution on this version (Available the 14 july 2006) :
+
+Add capability to select all tile of a level
+Add the mesure of the battlefield
+Add "Pg down" for level down
+Add "Pg up" for level up
+Add "-" for Zoom out
+Add "+" for zoom in
+Bug fixed : Now, no crash if you try high quality rendering and you havn't shadowing extension
+Add button to create the 3D view
+Bug fixed : Now rotate and see building speed is correct
+Add Ctrl+A for select all
+
+==================================================
+
+0.0021 The Evolution on this version (Available the 11 july 2006) :
+
+Add the number of player for the battlefield
+Add the possibility to write a scenario and print on page 2
+Add the view building to view how the map is construct
+Add the rotate button to rotate automatically around map
+Add the Go home button for the 3D view
+Add arrow key on 2D view to move the selected tiles
+Add button 'Add terrain set' in the material edit dialog 
+Add parameter for High quality image
+Add High quality image but not in real time
+Bug fixed : Now texture on glyph are correcly placed (was mirrored)
+Add some extension glyphs
+Bug fixed : Now 2 glyph of brandar are add when you add a master set
+Add possibility to put tile with clik (and move for tile of one hex)
+Bug fixed : When you add a forgotten forest the road tile was set to one forgotten forest
+
+==================================================
+
+0.0019 The Evolution on this version (Available the 08 july 2006) :
+
+Add English version
+Add possibility to change the shadow parameters
+Add the button thaelenk tundra
+Bug fixed : The size of the 3D view in the print or print preview was wrong
+Add the onion skin mode
+Bug fixed : When you create a 3D view, it is attached to the document
+Add select function (all, nothing, inverse, level up, level down)
+Add shadowing (Need Opengl 1.2 or later and some extensions)
+Add tooltips on view 2D toolbar
+Add mail in the about box
+Bug fixed : If you hide object or 2D view toolbar now, you can reopen them
+Bug fixed : about bad displayed of button on general toolbar
+The start area are smaller on 2D and 3D view and most transparency
+Now the mousewheel is used for rotate the selected tile
+==================================================
+
+0.0015 First version (Available the 02 july 2006)

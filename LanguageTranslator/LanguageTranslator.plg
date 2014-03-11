@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LanguageTranslator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Didier\LOCALS~1\Temp\RSP2E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_UNICODE" /Fp"Debug/LanguageTranslator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\TSS\Lima\Languages\LanguageTranslator\LanguageTranslatorDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Didier\LOCALS~1\Temp\RSP2E.tmp" 
+Creating temporary file "C:\DOCUME~1\Didier\LOCALS~1\Temp\RSP2F.tmp" with contents
+[
+/nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"Debug/LanguageTranslator.pdb" /debug /machine:I386 /out:"Debug/LanguageTranslator.exe" /pdbtype:sept 
+.\Debug\LanguageTranslator.obj
+.\Debug\LanguageTranslatorDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\LanguageTranslator.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Didier\LOCALS~1\Temp\RSP2F.tmp"
+<h3>Output Window</h3>
+Compiling...
+LanguageTranslatorDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+LanguageTranslator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
